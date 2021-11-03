@@ -1,0 +1,8 @@
+{
+  "short_name": "React Portfolio",
+  "name": "Rewrrite of my website using React.js",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f49898",
+  "background_color": "#f49898"
+}
