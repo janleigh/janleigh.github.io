@@ -4,10 +4,15 @@
 html, body, #root {
     margin: 0 auto;
     height: 100%;
+
     color: #fff;
     background-color: #181818;
 
     scroll-behavior: smooth;
+
+    h1 {
+        font-size: 1.5em;
+    }
 }
 
 a {
@@ -15,88 +20,11 @@ a {
 }
 
 .background {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-image: url("../assets/bg.gif");
-
-    filter: blur(5px) brightness(50%);
-    width: 100%;
-    height: 100%;
-}
-
-.about-container {
-    box-sizing: border-box;
-    margin: 0 auto;
-    margin-top: 1.5em;
-    margin-bottom: 2.5em;
-
-    width: 100%;
-    max-width: 1100px;
-    position: relative;
-}
-
-.box-container {
-    margin-bottom: 2.5em;
-    padding: 2em;
-    position: relative;
-
-    h1 {
-        font-size: 1.5em;
-        margin: 1em 0 1em 0;
-    }
-}
-
-.fullscreen {
-    height: 100%;
-    width: 100%;
-}
-
-.me {
-    display: flex;
-    align-items: center;
-
-    height: auto;
-    padding: 1rem 0;
-    z-index: 10;
-}
-
-.image-title {
-    border-radius: 100%;
-
-    margin-right: .25em;
-
-    height: 9em;
-    width: 9em;
 }
 
 .indent {
     margin-left: 1.2em;
-}
-
-.unset {
-    flex-direction: unset;
-    margin: 0;
-}
-
-.btn {
-    backface-visibility: hidden;
-    border: 0;
-    box-sizing: border-box;
-    
-    cursor: pointer;
-    display: inline-block;
-    
-    font-size: 16px;
-    height: 38px;
-    line-height: 38px;
-    margin: .5em;
-    padding: 0 30px;
-
-    text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
 }
 
 /* ANIMATIONS */
@@ -111,7 +39,7 @@ a {
 }
 
 .shake {
-    animation: shake .5s;
+    animation: shake 1.2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
@@ -123,11 +51,11 @@ a {
     }
 
     40% {
-        transform: translateX(-5px);
+        transform: translateX(-7px);
     }
 
     60% {
-        transform: translateX(5px);
+        transform: translateX(7px);
     }
 }
 

@@ -3,14 +3,16 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import {
 	AppContainer,
+	BoxContainer,
+	FullscreenSection,
 	ButtonList,
 	CenteredBox
 } from "./styles/AppStyles"
 
 export const App = () => {
 	return (
-		<AppContainer className="container">
-			<section id="main" className="fullscreen">
+		<AppContainer>
+			<FullscreenSection id="main" className="fullscreen">
 				<div className="background"></div>
 				<CenteredBox className="about">
 					<section className="me unset">
@@ -30,9 +32,9 @@ export const App = () => {
 						<Button text="more..." href="#about" color="#ff4757" shake={true} />
 					</ButtonList>
 				</CenteredBox>
-			</section>
-			<section className="about-container">
-				<div id="about" className="box-container">
+			</FullscreenSection>
+			<section className="container">
+				<BoxContainer id="about">
 					<Header title="about me." color="#f49898" />
 					<p className="victor-mono indent" style={{ textAlign: "left" }}>
 						hello! i'm jan leigh, a 16 year old self-taught full stack developer and linux enthusiast.<br/>
@@ -52,7 +54,7 @@ export const App = () => {
                         	- an api wrapper for <a href="https://trace.moe" target="_blank">trace.moe</a>.<br/>
                     	</p>
                 	</p>
-				</div>
+				</BoxContainer>
 			</section>
 			<Footer author="TheRealKizu"/>
 		</AppContainer>

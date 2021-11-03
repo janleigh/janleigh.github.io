@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types';
 
 const Header = ({
-    title = "",
-    color = "",
+    title,
+    color,
+}: {
+    title: string;
+    color: string;
 }) => {
     return (
         <h1 className="undertitle victor-mono-i" style={{

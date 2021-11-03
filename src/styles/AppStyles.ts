@@ -6,6 +6,19 @@ export const AppContainer =
                             height: 100%;
                         `;
 
+export const BoxContainer =
+                        styled.div`
+                            margin-bottom: 2.5rem;
+                            padding: 1em;
+                            position: relative;
+                        `;
+
+export const FullscreenSection =
+                        styled.section`
+                            height: 100%;
+                        `;
+
+
 export const CenteredBox =
                         styled.div`
                             display: flex;

@@ -1,10 +1,15 @@
 import PropTypes from 'prop-types';
 
 const Button = ({
-    text = "",
-    href = "",
-    color = "",
-    shake = false,
+    text,
+    href,
+    color,
+    shake,
+}: {
+    text: string,
+    href: string,
+    color: string,
+    shake: boolean,
 }) => {
     // Reference: https://stackoverflow.com/questions/21646738/convert-hex-to-rgba
     function hexToRGB(hex: string, alpha: number = 0.6) {
@@ -21,7 +26,7 @@ const Button = ({
 
     if (shake) {
         return (
-            <a className="btn hover victor-mono-i shake" href={href} target="_blank" style={{
+            <a className="btn hover victor-mono-i shake" href={href} style={{
                 color: "#fff",
                 backgroundColor: color,
                 filter: `drop-shadow(5px 5px 0 ${hexToRGB(color)})`
