@@ -31,11 +31,11 @@ a {
 
 .hover {
     transition: transform .2s ease;
-}
 
-.hover:hover {
-    filter: none !important;
-    transform: translateY(-0.5em);
+    &:hover {
+        filter: none !important;
+        transform: scale(-0.5em);
+    }
 }
 
 .shake {

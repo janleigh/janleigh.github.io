@@ -27,7 +27,7 @@ export const App = () => {
                         </div>
                     </section>
                     <ButtonList>
-                        <Button text="github" href="https://github.com/" />
+                        <Button text="github" href="https://github.com/TheRealKizu" />
                         <Button text="twitter" href="https://twitter.com/KizuWasTaken/" color="#f49898" />
                         <Button text="more..." href="#about" color="#ff4757" shake={true} />
                     </ButtonList>
