@@ -1,4 +1,4 @@
-export const AboutMe = ({
+export const Introduction = ({
     title,
     description,
 }: {
@@ -6,7 +6,7 @@ export const AboutMe = ({
     description: string;
 })  => {
     return (
-        <div id="about" className="about-me container">
+        <div id="about" className="about-container container">
             <section className="introduction">
                 <div className="columns">
                     <div className="column is-6">
@@ -33,9 +33,9 @@ export const AboutMe = ({
     )
 }
 
-AboutMe.defaultProps = {
+Introduction.defaultProps = {
     title: "Lorem ipsum",
     description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 }
 
-export default AboutMe;
+export default Introduction;

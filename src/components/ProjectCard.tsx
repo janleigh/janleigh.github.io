@@ -45,7 +45,15 @@ export const ProjectCard = ({
     const [data, _hasError, loading] = getRepository(repository);
 
     if (loading) 
-        return <div className="loading">Loading...</div>;
+        return (
+            <div className="card" style={{ width: "420px !important", margin: "12px" }}>
+                <div className="card-content">
+                    <div className="c-content">
+                        <p>Loading...</p>
+                    </div>
+                </div>
+            </div>
+        )
 
     const icon = getLanguageIcon(data.language);
 
@@ -60,7 +68,7 @@ export const ProjectCard = ({
                 <div className="c-content">
                     <p>{data.description}</p>
                     <br/>
-                    <p><i className={icon}></i>  {data.language} / <StarFillIcon size={16}/> {data.stargazers_count}</p>
+                    <p><i className={icon}></i>  {data.language} | <StarFillIcon size={16}/> {data.stargazers_count}</p>
                 </div>
             </div>
         </div>

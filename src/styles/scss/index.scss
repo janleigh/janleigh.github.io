@@ -34,8 +34,6 @@ a:hover {
 .app {
     height: 100%;
     margin: 0 auto;
-
-    scroll-behavior: smooth;
 }
 
 .button {
@@ -125,18 +123,18 @@ a:hover {
 }
 
 // Custom classes
-.about-me, .projects {
-    padding: 8rem;
+.about-container, .projects-container {
+    padding: 6rem;
     height: 100% !important;
 }
 
-.about-me {
+.about-container {
     .introduction {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
         .introduction section {
             flex-direction: unset;
         }
@@ -155,7 +153,7 @@ a:hover {
     }
 }
 
-.projects {
+.projects-container {
     background-color: $background-alt;
     transform: skewY(-5deg);
 

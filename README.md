@@ -2,11 +2,21 @@
 
 > my personal website. written using react.
 
-### ❖ Frameworks
+### — Prerequisites
+
+   * [Node.js](https://nodejs.org) version must be v16.x or above.
+
+### — Frameworks
 
    * [Bulma](https://bulma.io)
    * [Animate.css](https://animate.style/)
 
-### ❖ License
+### — CLI Commands
+
+   * `yarn install` ~ install dependencies.
+   * `yarn start` ~ start development server.
+   * `yarn deploy` ~ deploy server.
+
+### — License
 
    * This project is licensed under the [GPL-3.0](LICENSE) license.

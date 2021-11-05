@@ -2,7 +2,7 @@ import ProjectCard from "../ProjectCard";
 
 export const Projects = () => {
     return (
-        <div id="projects" className="projects">
+        <div id="projects" className="projects-container">
             <section className="projects-list">
                 <h1>Projects</h1>
                 <div className="columns">
@@ -10,7 +10,7 @@ export const Projects = () => {
                         <ProjectCard repository="dotfiles" />
                         <ProjectCard repository="trace.moe.ts" />
                     </div>
-                    <div className="column is-6">
+                    <div className="column is-half">
                         <ProjectCard repository="neodots" />
                         <ProjectCard repository="therealkizu.github.io" />
                     </div>
