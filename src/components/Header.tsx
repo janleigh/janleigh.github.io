@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 const Header = ({
     title,
     color,
@@ -12,11 +10,6 @@ const Header = ({
             color: color,
         }}>{title}</h1>
     )
-}
-
-Header.propTypes = {
-    title: PropTypes.string,
-    color: PropTypes.string,
 }
 
 Header.defaultProps = {

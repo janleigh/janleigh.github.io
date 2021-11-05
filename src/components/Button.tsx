@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 const Button = ({
     text,
     href,
@@ -43,13 +41,6 @@ const Button = ({
     }
 
     
-}
-
-Button.propTypes = {
-    text: PropTypes.string,
-    href: PropTypes.string,
-    color: PropTypes.string,
-    shake: PropTypes.bool,
 }
 
 Button.defaultProps = {

@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 export const Footer = ({
     author
 }: {
@@ -11,10 +9,6 @@ export const Footer = ({
             <p className="iosevka" style={{ color: "#373737" }}>Made using React.</p>
         </div>
     )
-}
-
-Footer.propTypes = {
-    author: PropTypes.string
 }
 
 Footer.defaultProps = {
