@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/home.kizu.cf/static/css/main.0250bce4.chunk.css",
-    "main.js": "/home.kizu.cf/static/js/main.52dcd112.chunk.js",
-    "main.js.map": "/home.kizu.cf/static/js/main.52dcd112.chunk.js.map",
-    "runtime-main.js": "/home.kizu.cf/static/js/runtime-main.37fab376.js",
-    "runtime-main.js.map": "/home.kizu.cf/static/js/runtime-main.37fab376.js.map",
-    "static/css/2.42db565c.chunk.css": "/home.kizu.cf/static/css/2.42db565c.chunk.css",
-    "static/js/2.75cc80e2.chunk.js": "/home.kizu.cf/static/js/2.75cc80e2.chunk.js",
-    "static/js/2.75cc80e2.chunk.js.map": "/home.kizu.cf/static/js/2.75cc80e2.chunk.js.map",
-    "index.html": "/home.kizu.cf/index.html",
-    "static/css/2.42db565c.chunk.css.map": "/home.kizu.cf/static/css/2.42db565c.chunk.css.map",
-    "static/css/main.0250bce4.chunk.css.map": "/home.kizu.cf/static/css/main.0250bce4.chunk.css.map",
-    "static/js/2.75cc80e2.chunk.js.LICENSE.txt": "/home.kizu.cf/static/js/2.75cc80e2.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.0250bce4.chunk.css",
+    "main.js": "/static/js/main.52dcd112.chunk.js",
+    "main.js.map": "/static/js/main.52dcd112.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dc33665e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dc33665e.js.map",
+    "static/css/2.42db565c.chunk.css": "/static/css/2.42db565c.chunk.css",
+    "static/js/2.75cc80e2.chunk.js": "/static/js/2.75cc80e2.chunk.js",
+    "static/js/2.75cc80e2.chunk.js.map": "/static/js/2.75cc80e2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.42db565c.chunk.css.map": "/static/css/2.42db565c.chunk.css.map",
+    "static/css/main.0250bce4.chunk.css.map": "/static/css/main.0250bce4.chunk.css.map",
+    "static/js/2.75cc80e2.chunk.js.LICENSE.txt": "/static/js/2.75cc80e2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.37fab376.js",
+    "static/js/runtime-main.dc33665e.js",
     "static/css/2.42db565c.chunk.css",
     "static/js/2.75cc80e2.chunk.js",
     "static/css/main.0250bce4.chunk.css",
