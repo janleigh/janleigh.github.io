@@ -4,7 +4,8 @@
 
 ### ❖ Frameworks
 
-   * [AlexFlipnote/Modesta](https://github.com/AlexFlipnote/Modesta)
+   * [Bulma](https://bulma.io)
+   * [Animate.css](https://animate.style/)
 
 ### ❖ License
 

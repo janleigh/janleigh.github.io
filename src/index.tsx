@@ -1,13 +1,13 @@
-import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import { BrowserRouter } from "react-router-dom";
 
+import App from "./App";
+import "bulma/css/bulma.css";
 import "./styles/scss/index.scss";
-import "./styles/css/modesta.css";
 
 ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>,
     document.getElementById("root")
 );

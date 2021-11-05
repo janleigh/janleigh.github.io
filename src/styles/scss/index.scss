@@ -1,81 +1,180 @@
-@import url("https://cdn.jsdelivr.net/npm/victormono@latest/dist/index.min.css");
+// Imports
+@import "./animations";
 @import url("https://cdn.jsdelivr.net/gh/aymanbagabas/iosevka-fonts@v6.1.2/dist/iosevka/iosevka.min.css");
+@import url("https://cdn.jsdelivr.net/npm/victormono@latest/dist/index.min.css");
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 
-html, body, #root {
-    margin: 0 auto;
+// Variables
+$iosevka: "Iosevka", sans-serif;
+$victormono: "Victor Mono", monospace;
+
+$background: #1d2021;
+$background-alt: #282828;
+$foreground: #fbf1c7;
+$green: #689d6a;
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    background-color: $background;
+
+    font-family: $iosevka;
+}
+
+a:hover {
+    transition: 0.3s;
+    color: $green;
+}
+
+// Bulma Overrides
+.app {
     height: 100%;
-
-    color: #fff;
-    background-color: #181818;
+    margin: 0 auto;
 
     scroll-behavior: smooth;
-
-    h1 {
-        font-size: 1.5em;
-    }
 }
 
-a {
-    color: #fff;
-}
+.button {
+    border: unset;
 
-.background {
-    background-image: url("../../assets/bg.gif");
-}
+    color: $foreground;
+    background-color: #292d32 !important;
+    filter: drop-shadow(5px 5px 0px rgba(41, 45, 50, 0.6)) !important;
 
-.indent {
-    margin-left: 1.2em;
-}
-
-/* ANIMATIONS */
-
-.hover {
-    transition: transform .2s ease;
+    margin: 0px 8px 0px 8px;
 
     &:hover {
-        filter: none !important;
-        transform: scale(-0.5em);
+        color: $foreground;
+        transform: translateY(-0.5em);
+        transition: transform 0.3s ease;
     }
 }
 
-.shake {
-    animation: shake 1.2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-@keyframes shake {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateX(0);
-    }
-
-    40% {
-        transform: translateX(-7px);
-    }
-
-    60% {
-        transform: translateX(7px);
-    }
-}
-
-/* FONTS */
-.undertitle {
+.content {
     text-align: left;
-    font-size: 2.5rem;
-    letter-spacing: 1px;
-    margin: 0;
+
+    font-size: 20px;
+
+    width: 100%;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $foreground;
+    }
+
+    .description {
+        color: $foreground;
+        font-family: $victormono;
+        font-style: italic;
+    }
 }
 
-.iosevka {
-    font-family: "Iosevka", sans-serif;
+.card {
+    color: $foreground;
+    background-color: $background;
+
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+
+    animation: scale-in .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+    .media-content {
+        font-weight: bold;
+    }
+
+    .c-content {
+        font-size: 14px;
+    }
 }
 
-.victor-mono {
-    font-family: "Victor Mono", monospace;
+.navbar {
+    background-color: $background-alt;
+
+    .navbar-brand .navbar-burger, .navbar-item {
+        color: $foreground;
+    }
+
+    .navbar-menu {
+        background-color: $background;
+    }
+
+    .navbar-end {
+        .navbar-item {
+            background: none;
+            margin: 0px 24px 0px 24px;
+
+            &:hover {
+                transition: 0.3s;
+                color: $green;
+            }
+        }
+    }
 }
 
-.victor-mono-i {
-    font-family: "Victor Mono", monospace;
-    font-style: italic;
+.footer {
+    color: $foreground;
+    background-color: $background;
+
+    margin-top: 3em;
+
+    p {
+        font-size: 16px;
+    }
+}
+
+// Custom classes
+.about-me, .projects {
+    padding: 8rem;
+    height: 100% !important;
+}
+
+.about-me {
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        .introduction section {
+            flex-direction: unset;
+        }
+
+        .image-title {
+            border-radius: 100%;
+            filter: drop-shadow(0px 0px 0px rgba(41, 45, 50, 0.8));
+
+            height: 16em !important;
+            width: 16em !important;
+            max-width: none !important;
+
+            animation: 3s ease-in-out infinite;
+            animation-name: floating;
+        }
+    }
+}
+
+.projects {
+    background-color: $background-alt;
+    transform: skewY(-5deg);
+
+    .projects-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        transform: skewY(5deg);
+
+        h1 {
+            color: $foreground;
+            font-size: 36px;
+            font-weight: bold;
+
+            align-items: center;
+
+            margin-bottom: 1em;
+        }
+    }
 }
