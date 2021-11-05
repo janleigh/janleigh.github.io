@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.2.0",
-  "homepage": "home.kizu.cf",
+  "homepage": "http://home.kizu.cf",
   "dependencies": {
     "@primer/octicons-react": "^16.1.1",
     "bulma": "^0.9.3",
