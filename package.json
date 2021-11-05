@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.2.0",
+  "homepage": "home.kizu.cf",
   "dependencies": {
     "@primer/octicons-react": "^16.1.1",
     "bulma": "^0.9.3",
@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
+    "predeploy": "yarn build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build"
   },
   "browserslist": {
