@@ -68,7 +68,14 @@ export const ProjectCard = ({
                 <div className="c-content">
                     <p>{data.description}</p>
                     <br/>
-                    <p><i className={icon}></i>  {data.language} | <StarFillIcon size={16}/> {data.stargazers_count}</p>
+                    <div style={{ display: "flex" }}>
+                        <div style={{ marginRight: "12px" }}>
+                            <span className="has-tooltip-arrow" data-tooltip="Language"><i className={icon}></i>  {data.language}</span>
+                        </div>
+                        <div>
+                            <span className="has-tooltip-arrow" data-tooltip="Stars"><StarFillIcon size={16} /> {data.stargazers_count}</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

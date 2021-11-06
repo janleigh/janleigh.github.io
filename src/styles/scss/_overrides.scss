@@ -1,0 +1,98 @@
+@import "./variables";
+
+// Bulma Tooltip Overrides
+span[data-tooltip] {
+    border: none;
+}
+
+// Bulma Overrides
+.app {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.button {
+    border: unset;
+
+    color: $foreground;
+    background-color: #292d32 !important;
+    filter: drop-shadow(5px 5px 0px rgba(41, 45, 50, 0.6)) !important;
+
+    margin: 0px 8px 0px 8px;
+
+    &:hover {
+        color: $foreground;
+        transform: translateY(-0.5em);
+        transition: transform 0.3s ease;
+    }
+}
+
+.content {
+    text-align: left;
+
+    font-size: 20px;
+
+    width: 100%;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $foreground;
+    }
+
+    .description {
+        color: $foreground;
+        font-family: $victormono;
+        font-style: italic;
+    }
+}
+
+.card {
+    color: $foreground;
+    background-color: $background;
+
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+
+    animation: scale-in .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+    .media-content {
+        font-weight: bold;
+    }
+
+    .c-content {
+        font-size: 14px;
+    }
+}
+
+.navbar {
+    background-color: $background-alt;
+
+    .navbar-brand .navbar-burger, .navbar-item {
+        color: $foreground;
+    }
+
+    .navbar-menu {
+        background-color: $background;
+    }
+
+    .navbar-end {
+        .navbar-item {
+            background: none;
+            margin: 0px 24px 0px 24px;
+
+            &:hover {
+                transition: 0.3s;
+                color: $green;
+            }
+        }
+    }
+}
+
+.footer {
+    color: $foreground;
+    background-color: $background;
+
+    margin-top: 3em;
+
+    p {
+        font-size: 16px;
+    }
+}

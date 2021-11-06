@@ -12,6 +12,7 @@ export const Projects = () => {
                     </div>
                     <div className="column is-half">
                         <ProjectCard repository="therealkizu.github.io" />
+                        <ProjectCard repository="dotfiles" />
                     </div>
                 </div>
             </section>

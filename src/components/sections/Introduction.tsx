@@ -1,13 +1,7 @@
-export const Introduction = ({
-    title,
-    description,
-}: {
-    title: string;
-    description: string;
-})  => {
+export const Introduction = () => {
     return (
-        <div id="about" className="about-container container">
-            <section className="introduction">
+        <div id="introduction" className="introduction-container container">
+            <section className="introduction section is-medium">
                 <div className="columns">
                     <div className="column is-6">
                         <figure className="animate__animated animate__slideInLeft">
@@ -20,8 +14,10 @@ export const Introduction = ({
                     </div>
                     <div className="column is-half">
                         <div className="content animate__animated animate__slideInRight">
-                            <h1 className="title">{ title }</h1>
-                            <p className="description">{ description }</p>
+                            <h1 className="title">Hello there!</h1>
+                            <p className="description">
+                                Hello! I'm Kizu! I'm a Filipino senior high-school student, a full stack developer and a Linux enthusiast.
+                            </p>
                             <br/>
                             <a href="https://github.com/TheRealKizu" target="_blank" className="button">GitHub</a>
                             <a href="https://twitter.com/KizuWasTaken" target="_blank" className="button">Twitter</a>
@@ -31,11 +27,6 @@ export const Introduction = ({
             </section>
         </div>
     )
-}
-
-Introduction.defaultProps = {
-    title: "Lorem ipsum",
-    description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 }
 
 export default Introduction;

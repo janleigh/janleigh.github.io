@@ -26,8 +26,11 @@ export const Navbar = () => {
                 className={`navbar-menu ${isActive ? "is-active" : "" }`}
             >
                 <div className="navbar-end">
-                    <a href="#about" className="navbar-item">
+                    <a href="#introduction" className="navbar-item">
                         Home
+                    </a>
+                    <a href="#about" className="navbar-item">
+                        About
                     </a>
                     <a href="#projects" className="navbar-item">
                         Projects
