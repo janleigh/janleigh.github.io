@@ -7,11 +7,10 @@ export const Projects = () => {
                 <h1>Projects</h1>
                 <div className="columns">
                     <div className="column is-6">
-                        <ProjectCard repository="dotfiles" />
                         <ProjectCard repository="trace.moe.ts" />
+                        <ProjectCard repository="Mocha" />
                     </div>
                     <div className="column is-half">
-                        <ProjectCard repository="neodots" />
                         <ProjectCard repository="therealkizu.github.io" />
                     </div>
                 </div>
