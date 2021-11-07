@@ -63,11 +63,8 @@ a {
             animation-name: floating;
         }
 
-        h1 {
-            border-right: solid 3px $foreground;
-            animation: animated-text 1.5s steps(29, end) 1s 1 normal both, animated-cursor 600ms steps(29, end) infinite;
-            overflow: hidden;
-            white-space: nowrap;
+        .description {
+            color: $foreground;
         }
     }
 }
@@ -83,6 +80,11 @@ a {
 
     .columns {
         padding: 12px 0px 12px 0px;
+    }
+
+    h1 {
+        border-bottom: $green solid 4px;
+        display: inline-block;
     }
 }
 

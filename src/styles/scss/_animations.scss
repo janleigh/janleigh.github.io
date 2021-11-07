@@ -22,21 +22,3 @@
         opacity: 1;
     }
 }
-
-@keyframes animated-text {
-    from {
-        width: 0;
-    }
-    to {
-        width: 50%;
-    }
-}
-
-@keyframes animated-cursor{
-    from {
-        border-right-color: $foreground;
-    }
-    to {
-        border-right-color: transparent;
-    }
-}

@@ -14,13 +14,13 @@ export const Introduction = () => {
                     </div>
                     <div className="column is-half">
                         <div className="content animate__animated animate__slideInRight">
-                            <h1 className="title">Hello there!</h1>
+                            <h1 className="title">Hello!</h1>
                             <p className="description">
                                 Hello! I'm Kizu! I'm a Filipino senior high-school student, a full stack developer and a Linux enthusiast.
                             </p>
                             <br/>
                             <a href="https://github.com/TheRealKizu" target="_blank" className="button">GitHub</a>
-                            <a href="https://twitter.com/KizuWasTaken" target="_blank" className="button">Twitter</a>
+                            <a href="#projects" className="button">Projects</a>
                         </div>
                     </div>
                 </div>
