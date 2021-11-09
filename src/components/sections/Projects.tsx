@@ -24,9 +24,8 @@ export const Projects = () => {
                                 color: "#fbf1c7",
                                 fontSize: "1.2rem",
                             }}
-                        >Hm. Well, this is awkward. There seems nothing to be <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a>.
-                        <br/>
-                        I wish I had commissions. 😔
+                        >
+                            Hm. Well, this is awkward. There seems nothing in <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a>.
                         </p>
                     </div>
                 </div>
