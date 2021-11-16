@@ -9,6 +9,7 @@ export const Projects = () => {
                 <div className="columns">
                     <div className="column is-6">
                         <ProjectCard repository="trace.moe.ts" />
+                        <ProjectCard repository="latte" />
                     </div>
                     <div className="column is-half">
                         <ProjectCard repository="therealkizu.github.io" />

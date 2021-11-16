@@ -1,4 +1,4 @@
-import { RepoIcon, StarFillIcon } from "@primer/octicons-react";
+import { RepoIcon, StarFillIcon, QuestionIcon } from "@primer/octicons-react";
 import { useEffect, useState } from "react";
 
 const getRepository = (repository: string): any => {
@@ -33,8 +33,8 @@ const getLanguageIcon = (language: string): string => {
             language = "bash";
             break;
         case "scss":
-            language = "css";
-            break;
+            language = "css3";
+            break
     }
 
     return `devicon-${language.toLowerCase()}-plain`;
@@ -75,8 +75,11 @@ export const ProjectCard = ({
                         <div style={{ marginRight: "12px" }}>
                             <span className="has-tooltip-arrow" data-tooltip="Language"><i className={icon}></i>  {data.language}</span>
                         </div>
-                        <div>
+                        <div style={{ marginRight: "12px" }}>
                             <span className="has-tooltip-arrow" data-tooltip="Stars"><StarFillIcon size={16} /> {data.stargazers_count}</span>
+                        </div>
+                        <div style={{ marginRight: "12px" }}>
+                            <span className="has-tooltip-arrow" data-tooltip="Archived"><QuestionIcon size={16} /> {data.archived ? "Archived" : "Maintained"}</span>
                         </div>
                     </div>
                 </div>
