@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 export const Navbar = () => {
     const [isActive, setIsActive] = useState(false);
@@ -26,15 +27,9 @@ export const Navbar = () => {
                 className={`navbar-menu ${isActive ? "is-active" : "" }`}
             >
                 <div className="navbar-end">
-                    <a href="#introduction" className="navbar-item">
-                        Home
-                    </a>
-                    <a href="#about" className="navbar-item">
-                        About
-                    </a>
-                    <a href="#projects" className="navbar-item">
-                        Projects
-                    </a>
+                    <Link to="introduction" smooth={true} className="navbar-item">Home</Link>
+                    <Link to="about" smooth={true} className="navbar-item">About</Link>
+                    <Link to="projects" smooth={true} className="navbar-item">Projects</Link>
                 </div>
             </div>
         </nav>

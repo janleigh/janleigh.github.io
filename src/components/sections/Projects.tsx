@@ -26,7 +26,7 @@ export const Projects = () => {
                                 fontSize: "1.2rem",
                             }}
                         >
-                            Hm. Well, this is awkward. There seems nothing in <Link to="/secret" target="_blank">here</Link>.
+                            Hm. Well, this is awkward. There seems nothing in <Link to="/secret">here</Link>.
                         </p>
                     </div>
                 </div>

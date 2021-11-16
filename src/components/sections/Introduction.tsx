@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 export const Introduction = () => {
     return (
         <div id="introduction" className="introduction-container container">
@@ -20,7 +22,7 @@ export const Introduction = () => {
                             </p>
                             <br/>
                             <a href="https://github.com/TheRealKizu" target="_blank" className="button">GitHub</a>
-                            <a href="#projects" className="button">Projects</a>
+                            <Link to="projects" smooth={true} className="button">Projects</Link>
                         </div>
                     </div>
                 </div>

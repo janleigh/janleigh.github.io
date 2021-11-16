@@ -79,7 +79,7 @@ export const ProjectCard = ({
                             <span className="has-tooltip-arrow" data-tooltip="Stars"><StarFillIcon size={16} /> {data.stargazers_count}</span>
                         </div>
                         <div style={{ marginRight: "12px" }}>
-                            <span className="has-tooltip-arrow" data-tooltip="Archived"><QuestionIcon size={16} /> {data.archived ? "Archived" : "Maintained"}</span>
+                            <span className="has-tooltip-arrow" data-tooltip="Is Archived?"><QuestionIcon size={16} /> {data.archived ? "Archived" : "Maintained"}</span>
                         </div>
                     </div>
                 </div>
