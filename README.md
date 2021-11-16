@@ -17,6 +17,10 @@
    * `yarn start` ~ start development server.
    * `yarn deploy` ~ deploy server.
 
+### — Special Thanks
+
+   * [Robin Delaporte](https://codepen.io/robin-dela) for the [easter egg](https://home.kizu.cf/secret).
+
 ### — License
 
    * This project is licensed under the [GPL-3.0](LICENSE) license.
