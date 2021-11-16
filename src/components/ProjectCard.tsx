@@ -32,6 +32,9 @@ const getLanguageIcon = (language: string): string => {
         case "shell":
             language = "bash";
             break;
+        case "scss":
+            language = "css";
+            break;
     }
 
     return `devicon-${language.toLowerCase()}-plain`;
