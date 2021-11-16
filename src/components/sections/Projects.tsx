@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ProjectCard from "../ProjectCard";
 
 export const Projects = () => {
@@ -24,7 +25,7 @@ export const Projects = () => {
                                 fontSize: "1.2rem",
                             }}
                         >
-                            Hm. Well, this is awkward. There seems nothing in <a target="_blank" href="/secret">here</a>.
+                            Hm. Well, this is awkward. There seems nothing in <Link to="/secret" target="_blank">here</Link>.
                         </p>
                     </div>
                 </div>
