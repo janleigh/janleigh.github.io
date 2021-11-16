@@ -2,17 +2,6 @@
   "name": "therealkizu.github.io",
   "version": "0.2.0",
   "homepage": "http://home.kizu.cf",
-  "dependencies": {
-    "@creativebulma/bulma-tooltip": "^1.2.0",
-    "@primer/octicons-react": "^16.1.1",
-    "@types/react-scroll": "^1.8.3",
-    "bulma": "^0.9.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^6.0.1",
-    "react-scripts": "4.0.3",
-    "react-scroll": "^1.8.4"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -33,10 +22,24 @@
       "last 1 safari version"
     ]
   },
+  "dependencies": {
+    "@creativebulma/bulma-tooltip": "^1.2.0",
+    "@primer/octicons-react": "^16.1.1",
+    "animate.css": "^4.1.1",
+    "bulma": "^0.9.3",
+    "react": "^17.0.2",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.0.1",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4"
+  },
   "devDependencies": {
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
+    "@types/react-animate-on-scroll": "^2.1.5",
     "@types/react-dom": "^17.0.0",
+    "@types/react-scroll": "^1.8.3",
     "gh-pages": "^3.2.3",
     "sass": "^1.43.4",
     "typescript": "^4.1.2"

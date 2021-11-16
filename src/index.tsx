@@ -3,9 +3,10 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 // PAGES
 import App from "./pages/App";
-import Secret from "./pages/Secret";
+import EasterEgg from "./pages/EasterEgg";
 
 // CSS
+import "animate.css/animate.min.css";
 import "bulma/css/bulma.css";
 import "@creativebulma/bulma-tooltip/dist/bulma-tooltip.css";
 import "./styles/scss/index.scss";
@@ -14,7 +15,7 @@ ReactDOM.render(
     <Router>
         <Routes>
             <Route path="/" element={<App />} />
-            <Route path="/secret" element={<Secret />} />
+            <Route path="/how-did-you-find-this" element={<EasterEgg />} />
         </Routes>
     </Router>,
     document.getElementById("root")
