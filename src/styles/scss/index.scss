@@ -3,6 +3,7 @@
 @import "./overrides";
 @import "./variables";
 @import "./easteregg";
+@import "./nostalgia";
 @import url("https://cdn.jsdelivr.net/gh/aymanbagabas/iosevka-fonts@v6.1.2/dist/iosevka/iosevka.min.css");
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
 
@@ -12,7 +13,6 @@
 
 html, body {
     background-color: $background;
-
     font-family: $iosevka;
 }
 

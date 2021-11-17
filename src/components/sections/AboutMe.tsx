@@ -4,7 +4,7 @@ export const AboutMe = () => {
     return (
         <div id="about" className="about-container container">
             <section className="about">
-                <ScrollAnimation animateIn="animate__slideInLeft" animateOut="animate__slideOutRight">
+                <ScrollAnimation animateIn="animate__slideInLeft">
                     <div className="columns">
                         <div className="column is-12">
                             <div className="content">

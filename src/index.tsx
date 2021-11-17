@@ -3,7 +3,8 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 // PAGES
 import App from "./pages/App";
-import EasterEgg from "./pages/EasterEgg";
+import EasterEgg from "./pages/secrets/EasterEgg";
+import Nostalgia from "./pages/secrets/Nostalgia";
 
 // CSS
 import "animate.css/animate.min.css";
@@ -16,6 +17,7 @@ ReactDOM.render(
         <Routes>
             <Route path="/" element={<App />} />
             <Route path="/how-did-you-find-this" element={<EasterEgg />} />
+            <Route path="/nostalgia" element={<Nostalgia />} />
         </Routes>
     </Router>,
     document.getElementById("root")

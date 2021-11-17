@@ -7,7 +7,7 @@ export const Introduction = () => {
             <section className="introduction section is-medium">
                 <div className="columns">
                     <div className="column is-6">
-                        <ScrollAnimation animateIn="animate__slideInLeft" animateOut="animate__slideOutUp">
+                        <ScrollAnimation animateIn="animate__slideInLeft">
                             <figure>
                                 <img
                                     className="image-title"
@@ -18,7 +18,7 @@ export const Introduction = () => {
                         </ScrollAnimation>
                     </div>
                     <div className="column is-half">
-                        <ScrollAnimation animateIn="animate__slideInRight" animateOut="animate__slideOutUp">
+                        <ScrollAnimation animateIn="animate__slideInRight">
                             <div className="content animate__animated animate__slideInRight">
                                 <h1 className="title">Hello!</h1>
                                 <p className="description">
