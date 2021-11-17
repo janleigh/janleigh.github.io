@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export const Footer = () => {
     return (
         <footer className="footer">
@@ -7,7 +5,7 @@ export const Footer = () => {
                 <p>
                     Powered using <a href="https://bulma.io">Bulma</a> and <a href="https://reactjs.org">React</a>.
                     <br/>
-                    Copyright © 2021 TheRealKizu. <Link to="/nostalgia" target="_blank">All Rights Reserved.</Link>
+                    Copyright © 2021 TheRealKizu. All Rights Reserved.
                 </p>
             </div>
         </footer>
