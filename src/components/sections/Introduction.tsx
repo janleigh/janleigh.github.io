@@ -27,6 +27,7 @@ export const Introduction = () => {
                                 <br/>
                                 <a href="https://github.com/TheRealKizu" target="_blank" className="button">GitHub</a>
                                 <Link to="projects" smooth={true} className="button">Projects</Link>
+                                <a href="https://ko-fi.com/therealkizu" target="_blank" className="button">Donate</a>
                             </div>
                         </ScrollAnimation>
                     </div>
