@@ -7,7 +7,7 @@ export const Introduction = () => {
             <section className="introduction section is-medium">
                 <div className="columns">
                     <div className="column is-6">
-                        <ScrollAnimation animateIn="animate__slideInLeft">
+                        <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
                             <figure>
                                 <img
                                     className="image-title"
@@ -18,8 +18,8 @@ export const Introduction = () => {
                         </ScrollAnimation>
                     </div>
                     <div className="column is-half">
-                        <ScrollAnimation animateIn="animate__slideInRight">
-                            <div className="content animate__animated animate__slideInRight">
+                        <ScrollAnimation animateIn="animate__slideInRight" animateOnce={true}>
+                            <div className="content">
                                 <h1 className="title">Hello!</h1>
                                 <p className="description">
                                     Hello! I'm Kizu! I'm a Filipino senior high-school student, a full stack developer and a Linux enthusiast.

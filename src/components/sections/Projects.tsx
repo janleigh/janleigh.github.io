@@ -8,11 +8,11 @@ export const Projects = () => {
                 <h1>Projects</h1>
                 <div className="columns">
                     <div className="column is-6">
-                        <ProjectCard repository="trace.moe.ts" />
-                        <ProjectCard repository="latte" />
+                        <ProjectCard username="TheRealKizu" repository="trace.moe.ts" />
+                        <ProjectCard username="elyxrdev" repository="haumea" />
                     </div>
                     <div className="column is-half">
-                        <ProjectCard repository="therealkizu.github.io" />
+                        <ProjectCard username="TheRealKizu" repository="therealkizu.github.io" />
                     </div>
                 </div>
                 <h1>Commissions</h1>

@@ -1,14 +1,14 @@
 import { RepoIcon, StarFillIcon, QuestionIcon } from "@primer/octicons-react";
 import { useEffect, useState } from "react";
 
-const getRepository = (repository: string): any => {
+const getRepository = (username: string, repository: string): any => {
     const [response, setResponse] = useState({});
     const [error, setError] = useState(false);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         setLoading(true);
-        fetch(`https://api.github.com/repos/TheRealKizu/${repository}`, {
+        fetch(`https://api.github.com/repos/${username}/${repository}`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -41,11 +41,13 @@ const getLanguageIcon = (language: string): string => {
 }
 
 export const ProjectCard = ({
+    username,
     repository
 }: {
+    username: string,
     repository: string;
 }) => {
-    const [data, _hasError, loading] = getRepository(repository);
+    const [data, _hasError, loading] = getRepository(username, repository);
 
     if (loading) 
         return (

@@ -10,47 +10,37 @@ $ditto: #B65EDD;
 
 .easteregg {
     margin: 0;
-    background: $orange;
-    border: 20px solid $purple;
-    animation: blink 2s steps(4) infinite;
     height: 100vh;
     width: 100vw;
+
     box-sizing: border-box;
+    border: 20px solid #32302f;
+    background: linear-gradient(-45deg, #D48049, #D3869B, #7daea3, #89b482);
+	background-size: 400% 400%;
+    animation: blink 5s ease infinite;
 
     @keyframes blink {
-        20% {
-            border: 20px solid $minth; 
-            background: $red;
+        0% {
+            background-position: 0% 50%;
         }
-        40% {
-            border: 20px solid $salmon;
-            background: $pale-red;
+        50% {
+            background-position: 100% 50%;
         }
-        60% {
-            border: 20px solid $yellow;
-            background: $amoggreen;
-        }
-        80% {
-            border: 20px solid $purple;
-            background: $ditto;
+        100% {
+            background-position: 0% 50%;
         }
     }
 }
 
 .easteregg-container {
-    width: 495px;
-    height: 525px;
+    width: 475px;
+    height: auto;
     overflow: hidden;
 
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    .easteregg-subcontainer {
-        width: 1980px;
-        height: 525px;
-    }
 }
 
 #ditto {
@@ -59,6 +49,7 @@ $ditto: #B65EDD;
     position: relative;
 
     margin-top: 2em;
+
 
     &::after {
         content: "";

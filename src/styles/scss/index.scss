@@ -108,3 +108,19 @@ a {
         }
     }
 }
+
+.prc-container {
+    height: 100vh;
+    margin: 3em;
+
+    .prc-text {
+        font-size: 14px;
+        background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.qH50dag77ZEFau1lmIc_fAHaEK%26pid%3DApi&f=1");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-clip: text;
+        -webkit-text-fill-color: rgba(255,255,255,0);
+    }
+}

@@ -1,7 +1,7 @@
 export const EasterEgg = () => {
     return (
         <div className="easteregg">
-            <div className="easteregg-container">
+            <div className="easteregg-container container">
                 <div className="easteregg-subcontainer">
                     <div id="ditto"/>
                 </div>
