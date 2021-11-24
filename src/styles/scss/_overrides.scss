@@ -15,10 +15,13 @@ span[data-tooltip] {
 
     margin: 0px 8px 0px 8px;
 
-    &:hover {
+    transform: translateY(-0em);
+    transition: 0.25s;
+
+    &:hover,
+    &:focus {
         color: $foreground;
         transform: translateY(-0.5em);
-        transition: transform 0.3s ease;
     }
 }
 
@@ -52,13 +55,14 @@ span[data-tooltip] {
 }
 
 .navbar {
+    margin: 8px 16px;
     background-color: $background-alt;
 
     .navbar-brand .navbar-burger, .navbar-item {
         color: $foreground;
     }
 
-    .navbar-menu {
+    .navbar-brand, .navbar-menu {
         background-color: $background;
     }
 

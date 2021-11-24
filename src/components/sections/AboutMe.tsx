@@ -10,7 +10,7 @@ export const AboutMe = () => {
                             <div className="content">
                                 <h1 className="title">About Me</h1>
                                 <p className="about-description">
-                                    I am a 16 year old Filipino self taught full stack developer.<br/>
+                                    I am a 16 year old Filipino self taught full-stack developer.<br/>
                                     My real name is <span className="aqua" style={{ fontWeight: "bold" }}>Jan Leigh</span> but I go by the name of <span className="aqua" style={{ fontWeight: "bold" }}>Kizu</span> on the internet.<br/>
                                 </p>
                             </div>

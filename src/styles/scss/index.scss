@@ -30,6 +30,28 @@ a {
 }
 
 // Custom classes
+.not-found-container {
+    color: $foreground;
+    padding: 8rem;
+
+    .not-found {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .not-found-title {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .not-found-description {
+            font-size: 1.3rem;
+            color: $foreground;
+        }
+    }
+}
+
 .introduction-container, .about-container,.projects-container {
     padding: 6rem;
     height: 100% !important;
@@ -106,21 +128,5 @@ a {
 
             margin-bottom: 1em;
         }
-    }
-}
-
-.prc-container {
-    height: 100vh;
-    margin: 3em;
-
-    .prc-text {
-        font-size: 14px;
-        background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.qH50dag77ZEFau1lmIc_fAHaEK%26pid%3DApi&f=1");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-clip: text;
-        -webkit-text-fill-color: rgba(255,255,255,0);
     }
 }

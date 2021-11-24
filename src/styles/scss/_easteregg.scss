@@ -1,13 +1,3 @@
-$purple: #CA3CD8;
-$minth: #AEFDDD;
-$salmon: #FBD972;
-$yellow: #D38A9B;
-$orange: #D18058;
-$red: #CC313D;
-$pale-red: #D15249;
-$amoggreen: #13C656;
-$ditto: #B65EDD;
-
 .easteregg {
     margin: 0;
     height: 100vh;
@@ -38,7 +28,7 @@ $ditto: #B65EDD;
     overflow: hidden;
 
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -49,7 +39,6 @@ $ditto: #B65EDD;
     position: relative;
 
     margin-top: 2em;
-
 
     &::after {
         content: "";
