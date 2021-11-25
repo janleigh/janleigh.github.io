@@ -10,8 +10,9 @@ span[data-tooltip] {
     border: unset;
 
     color: $foreground;
-    background-color: #292d32 !important;
-    filter: drop-shadow(5px 5px 0px rgba(41, 45, 50, 0.6)) !important;
+    background-color: transparent;
+    border: 3px solid #292d32;
+    // filter: drop-shadow(5px 5px 0px rgba(41, 45, 50, 0.6)) !important; 
 
     margin: 0px 8px 0px 8px;
 
@@ -21,6 +22,7 @@ span[data-tooltip] {
     &:hover,
     &:focus {
         color: $foreground;
+        border-color: $green !important;
         transform: translateY(-0.5em);
     }
 }

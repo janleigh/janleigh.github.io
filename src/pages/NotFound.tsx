@@ -6,10 +6,7 @@ export const NotFound = () => {
             <section className="not-found">
                 <h1 className="not-found-title">404.</h1>
                 <p className="not-found-description">
-                    You can always go back to the <Link to="/" className="link">homepage</Link> or check out my <Link to="/projects" className="link">projects</Link>.
-                </p>
-                <p style={{ fontSize: "1em", textDecoration: "line-through" }}>
-                    or <Link to="/how-did-you-find-this" target="_blank" className="link">[REDACTED]</Link>
+                    You can always go back to the <Link to="/" className="link">homepage</Link> or <Link to="/how-did-you-find-this" target="_blank" className="link">here.</Link>
                 </p>
             </section>
         </div>

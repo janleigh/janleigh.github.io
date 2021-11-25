@@ -1,7 +1,7 @@
 {
   "name": "therealkizu.github.io",
-  "version": "0.2.0",
-  "homepage": "http://home.kizu.cf",
+  "version": "1.2.1",
+  "homepage": "https://home.kizu.cf",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -6,7 +6,7 @@ export const Introduction = () => {
         <div id="introduction" className="introduction-container container">
             <section className="introduction section is-medium">
                 <div className="columns">
-                    <div className="column is-6">
+                    <div className="column is-5">
                         <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
                             <figure>
                                 <img
@@ -17,16 +17,16 @@ export const Introduction = () => {
                             </figure>
                         </ScrollAnimation>
                     </div>
-                    <div className="column is-half">
+                    <div className="column is-7">
                         <ScrollAnimation animateIn="animate__slideInRight" animateOnce={true}>
                             <div className="content">
-                                <h1 className="title">Hello!</h1>
+                                <h1 className="title">Hello! I'm <span style={{ color: "#689d6a" }}>Kizu!</span></h1>
                                 <p className="description">
-                                    Hello! I'm Kizu! I'm a Filipino senior high-school student, a full stack developer and a Linux enthusiast.
+                                    An Filipino senior high school student, a full-stack developer and a Linux enthusiast.
                                 </p>
                                 <br/>
+                                <a href="https://discord.com/users/380307921952833537" target="_blank" className="button">Discord</a>
                                 <a href="https://github.com/TheRealKizu" target="_blank" className="button">GitHub</a>
-                                <Link to="projects" smooth={true} className="button">Projects</Link>
                                 <a href="https://ko-fi.com/therealkizu" target="_blank" className="button">Donate</a>
                             </div>
                         </ScrollAnimation>
