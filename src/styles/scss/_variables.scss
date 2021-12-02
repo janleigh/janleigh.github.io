@@ -1,7 +1,15 @@
-$iosevka: "Iosevka", sans-serif;
+$background: #0E1112;
+$background-alt: #101415;
+$foreground: #DADDE0;
 
-$background: #1d2021;
-$background-alt: #282828;
-$foreground: #fbf1c7;
-$green: #689d6a;
-$aqua: #89b482;
+$red: #F05959;
+$yellow: #F3B94C;
+$green: #5EE26B;
+$aqua: #6EF0E3;
+$blue: #307CF5;
+$blue-desaturated: #758cb0;
+$magenta: #F266C8;
+
+.blue-text {
+    color: $blue;
+}

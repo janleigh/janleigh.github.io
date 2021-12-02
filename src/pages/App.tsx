@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Introduction from "../components/sections/Introduction";
-import AboutMe from "../components/sections/AboutMe";
 import Projects from "../components/sections/Projects";
+import AboutMe from "../components/sections/AboutMe";
 import Footer from "../components/sections/Footer";
 
 export const App = () => {
@@ -9,8 +9,8 @@ export const App = () => {
         <div className="app">
             <Navbar/>
             <Introduction/>
-            <AboutMe/>
             <Projects/>
+            <AboutMe/>
             <Footer/>
         </div>
     )

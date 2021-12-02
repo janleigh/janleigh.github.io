@@ -4,10 +4,9 @@
     width: 100vw;
 
     box-sizing: border-box;
-    border: 20px solid #32302f;
-    background: linear-gradient(-45deg, #D48049, #D3869B, #7daea3, #89b482);
+    background: linear-gradient(-45deg, $red, $yellow, $magenta);
 	background-size: 400% 400%;
-    animation: blink 5s ease infinite;
+    animation: blink 4s ease infinite;
 
     @keyframes blink {
         0% {

@@ -3,8 +3,8 @@ import ProjectCard from "../ProjectCard";
 
 export const Projects = () => {
     return (
-        <div id="projects" className="projects-container">
-            <section className="projects-list">
+        <section id="projects" className="projects section is-medium">
+            <div className="projects-container">
                 <h1>Projects</h1>
                 <div className="columns">
                     <div className="column is-6">
@@ -30,8 +30,8 @@ export const Projects = () => {
                         </p>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     )
 }
 

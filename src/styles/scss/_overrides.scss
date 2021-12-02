@@ -6,23 +6,27 @@ span[data-tooltip] {
 }
 
 // Bulma Overrides
+.section.is-medium {
+    padding: 6em 3em !important;
+}
+
 .button {
     border: unset;
 
     color: $foreground;
     background-color: transparent;
-    border: 3px solid #292d32;
-    // filter: drop-shadow(5px 5px 0px rgba(41, 45, 50, 0.6)) !important; 
+    border: 3px solid #292d32 !important;
 
-    margin: 0px 8px 0px 8px;
+    margin: 6px !important;
 
     transform: translateY(-0em);
-    transition: 0.25s;
+    transition: 0.35s;
 
     &:hover,
     &:focus {
         color: $foreground;
-        border-color: $green !important;
+        box-shadow: inset 6.5em 0 0 0 #292d32;
+        border-color: #292d32 !important;
         transform: translateY(-0.5em);
     }
 }
@@ -72,10 +76,14 @@ span[data-tooltip] {
         .navbar-item {
             background: none;
             margin: 0px 24px 0px 24px;
+            border-bottom: 3px solid transparent;
 
-            &:hover {
-                transition: 0.3s;
-                color: $green;
+            transition: 0.3s ease-in-out;
+
+            &:hover,
+            &:focus {
+                color: $foreground;
+                border-color: $blue;
             }
         }
     }
@@ -84,8 +92,7 @@ span[data-tooltip] {
 .footer {
     color: $foreground;
     background-color: $background;
-
-    margin-top: 3em;
+    padding: 4em !important;
 
     p {
         font-size: 16px;

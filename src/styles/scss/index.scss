@@ -3,7 +3,8 @@
 @import "./overrides";
 @import "./variables";
 @import "./easteregg";
-@import url("https://cdn.jsdelivr.net/gh/aymanbagabas/iosevka-fonts@v6.1.2/dist/iosevka/iosevka.min.css");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/css.gg/icons/all.css");
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
 
 * {
@@ -12,27 +13,25 @@
 
 html, body {
     background-color: $background;
-    font-family: $iosevka;
+    color: $foreground;
+    font-family: "DM Sans", sans-serif;
 }
 
 a {
-    color: $aqua;
+    color: $blue;
+    transition: 0.3s ease-in-out;
 
-    &:hover {
-        transition: 0.3s;
-        color: $green;
+    &:hover,
+    &:focus {
+        // Desaturate color
+        color: $blue-desaturated;
     }
-}
-
-// Color classes
-.aqua {
-    color: $aqua;
 }
 
 // Custom classes
 .not-found-container {
     color: $foreground;
-    padding: 8rem;
+    padding: 8em;
 
     .not-found {
         display: flex;
@@ -41,84 +40,87 @@ a {
         align-items: center;
 
         .not-found-title {
-            font-size: 3rem;
-            margin-bottom: 1rem;
+            font-size: 3em;
+            margin-bottom: 1em;
         }
 
         .not-found-description {
-            font-size: 1.3rem;
+            font-size: 1.3em;
             color: $foreground;
         }
     }
 }
 
-.introduction-container, .about-container,.projects-container {
-    padding: 6rem;
+.introduction-container, .about-container, .projects-container {
     height: 100% !important;
 }
 
-.introduction-container {
-    
-    .introduction {
+#introduction {
+    .introduction-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        padding: 6rem 4.5rem;
+        padding: 2.5em 4.5em 6.5em 4.5em;
 
         .introduction section {
             flex-direction: unset;
         }
 
-        .image-title {
-            border-radius: 100%;
+        .avatar {
+            margin-top: -0.5em !important;
 
-            height: 16em !important;
-            width: 16em !important;
-            max-width: none !important;
-
-            animation: 3s ease-in-out infinite;
-            animation-name: floating;
+            .image-title {
+                border-radius: 100%;
+    
+                height: 16em !important;
+                width: 16em !important;
+                max-width: none !important;
+    
+                animation: 3s ease-in-out infinite;
+                animation-name: floating;
+            }
         }
+    }
+}
 
-        .description {
+#about {
+    .about-container {
+        .about-description {
             color: $foreground;
-            
+            font-size: 18px;
+            font-weight: normal;
+        }
+    
+        .columns {
+            padding: 12px 0px 12px 0px;
+
+            .column {
+                a {
+                    color: $foreground;
+                }
+            }
+        }
+    
+        h1 {
+            color: inherit !important;
+            font-size: 36px !important;
+            border-bottom: $green solid 4px;
+            display: inline-block;
         }
     }
 }
 
-.about-container {
-    padding-bottom: 12em;
-
-    .about-description {
-        color: $foreground;
-        font-size: 18px;
-        font-weight: normal;
-    }
-
-    .columns {
-        padding: 12px 0px 12px 0px;
-    }
-
-    h1 {
-        border-bottom: $green solid 4px;
-        display: inline-block;
-    }
-}
-
-.projects-container {
+#projects {
+    margin-top: 6em !important;
     background-color: $background-alt;
-    transform: skewY(-5deg);
 
-    .projects-list {
+    .projects-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        transform: skewY(5deg);
 
         h1 {
             color: $foreground;

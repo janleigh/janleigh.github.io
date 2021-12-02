@@ -1,14 +1,13 @@
-import { Link } from "react-scroll";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export const Introduction = () => {
     return (
-        <div id="introduction" className="introduction-container container">
-            <section className="introduction section is-medium">
+        <section id="introduction" className="introduction section is-medium">
+            <div className="introduction-container container">
                 <div className="columns">
                     <div className="column is-5">
                         <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
-                            <figure>
+                            <figure className="avatar">
                                 <img
                                     className="image-title"
                                     src="https://avatars.githubusercontent.com/u/40911019?v=4"
@@ -17,12 +16,12 @@ export const Introduction = () => {
                             </figure>
                         </ScrollAnimation>
                     </div>
-                    <div className="column is-7">
+                    <div className="column is-8">
                         <ScrollAnimation animateIn="animate__slideInRight" animateOnce={true}>
                             <div className="content">
-                                <h1 className="title">Hello! I'm <span style={{ color: "#689d6a" }}>Kizu!</span></h1>
+                                <h1 className="title">Hey! I'm <span style={{ color: "#5EE26B" }}>Kizu!</span></h1>
                                 <p className="description">
-                                    An Filipino senior high school student, a full-stack developer and a Linux enthusiast.
+                                    An Filipino senior full-stack developer and a Linux enthusiast.
                                 </p>
                                 <br/>
                                 <a href="https://discord.com/users/380307921952833537" target="_blank" className="button">Discord</a>
@@ -32,8 +31,8 @@ export const Introduction = () => {
                         </ScrollAnimation>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     )
 }
 
