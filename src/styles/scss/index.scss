@@ -2,60 +2,17 @@
 @import "./animations";
 @import "./overrides";
 @import "./variables";
-@import "./easteregg";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/css.gg/icons/all.css");
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
-
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    background-color: $background;
-    color: $foreground;
-    font-family: "DM Sans", sans-serif;
-}
-
-a {
-    color: $blue;
-    transition: 0.3s ease-in-out;
-
-    &:hover,
-    &:focus {
-        // Desaturate color
-        color: $blue-desaturated;
-    }
-}
-
-// Custom classes
-.not-found-container {
-    color: $foreground;
-    padding: 8em;
-
-    .not-found {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        .not-found-title {
-            font-size: 3em;
-            margin-bottom: 1em;
-        }
-
-        .not-found-description {
-            font-size: 1.3em;
-            color: $foreground;
-        }
-    }
-}
 
 .introduction-container, .about-container, .projects-container {
     height: 100% !important;
 }
 
 #introduction {
+    flex-direction: unset;
+
     .introduction-container {
         display: flex;
         flex-direction: column;
@@ -63,10 +20,6 @@ a {
         align-items: center;
 
         padding: 2.5em 4.5em 6.5em 4.5em;
-
-        .introduction section {
-            flex-direction: unset;
-        }
 
         .avatar {
             margin-top: -0.5em !important;
@@ -81,6 +34,11 @@ a {
                 animation: 3s ease-in-out infinite;
                 animation-name: floating;
             }
+        }
+
+        .content {
+            margin-top: 2em;
+            margin-bottom: 2em;
         }
     }
 }
@@ -123,13 +81,35 @@ a {
         align-items: center;
 
         h1 {
-            color: $foreground;
+            color: inherit !important;
             font-size: 36px;
             font-weight: bold;
 
             align-items: center;
-
             margin-bottom: 1em;
+        }
+    }
+}
+
+#not-found {
+    .not-found-container {
+        color: $foreground;
+        padding: 8em;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .not-found-title {
+            font-size: 3em;
+            margin-bottom: 1em;
+        }
+
+        .not-found-description {
+            text-align: center;
+            font-size: 1.3em;
+            color: $foreground;
         }
     }
 }

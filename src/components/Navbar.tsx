@@ -29,9 +29,14 @@ export const Navbar = () => {
                 <div className="navbar-end">
                     <Link to="introduction" smooth={true} className="navbar-item">Home</Link>
                     <Link to="projects" smooth={true} className="navbar-item">Projects</Link>
+                    <Link to="about" smooth={true} className="navbar-item">About</Link>
                     <a href="mailto:therealkizu.protonmail.com" className="navbar-item">
-                        <span className="is-hidden-mobile gg-mail"/>
-                        <span className="is-hidden-desktop">Mail</span>
+                        <span className="is-hidden-touch gg-mail"/>
+                        <span className="is-hidden-desktop">Email Me</span>
+                    </a>
+                    <a href="https://discord.gg/2RfJb3CVfb" className="navbar-item">
+                        <span className="is-hidden-touch gg-comment"/>
+                        <span className="is-hidden-desktop">Discord Server</span>
                     </a>
                 </div>
             </div>

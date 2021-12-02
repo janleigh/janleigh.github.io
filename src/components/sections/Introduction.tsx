@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export const Introduction = () => {
@@ -18,15 +19,12 @@ export const Introduction = () => {
                     </div>
                     <div className="column is-8">
                         <ScrollAnimation animateIn="animate__slideInRight" animateOnce={true}>
-                            <div className="content">
+                            <div className="content" style={{ textAlign: "center" }}>
                                 <h1 className="title">Hey! I'm <span style={{ color: "#5EE26B" }}>Kizu!</span></h1>
                                 <p className="description">
-                                    An Filipino senior full-stack developer and a Linux enthusiast.
+                                    An Filipino full-stack developer and a Linux enthusiast.
                                 </p>
                                 <br/>
-                                <a href="https://discord.com/users/380307921952833537" target="_blank" className="button">Discord</a>
-                                <a href="https://github.com/TheRealKizu" target="_blank" className="button">GitHub</a>
-                                <a href="https://ko-fi.com/therealkizu" target="_blank" className="button">Donate</a>
                             </div>
                         </ScrollAnimation>
                     </div>

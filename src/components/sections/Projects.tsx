@@ -22,7 +22,6 @@ export const Projects = () => {
                             style={{ 
                                 textAlign: "center",
 
-                                color: "#fbf1c7",
                                 fontSize: "1.2rem",
                             }}
                         >

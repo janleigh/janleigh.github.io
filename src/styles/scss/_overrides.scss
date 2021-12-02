@@ -1,5 +1,31 @@
 @import "./variables";
 
+// Base Overrides
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: $background;
+    color: $foreground;
+    font-family: "DM Sans", sans-serif;
+}
+
+a {
+    color: $blue;
+    transition: 0.3s ease-in-out;
+
+    &:hover,
+    &:focus {
+        // Desaturate color
+        color: $blue-desaturated;
+    }
+}
+
+input[type=range]::-moz-focus-outer {
+    border: 0;
+}
+
 // Bulma Tooltip Overrides
 span[data-tooltip] {
     border: none;
@@ -20,12 +46,13 @@ span[data-tooltip] {
     margin: 6px !important;
 
     transform: translateY(-0em);
-    transition: 0.35s;
+    transition: 0.40s;
 
     &:hover,
     &:focus {
         color: $foreground;
-        box-shadow: inset 6.5em 0 0 0 #292d32;
+        box-shadow: inset 3.25em 0 0 0 #292d32,
+            inset -3.25em 0 0 0 #292d32;
         border-color: #292d32 !important;
         transform: translateY(-0.5em);
     }
@@ -75,7 +102,7 @@ span[data-tooltip] {
     .navbar-end {
         .navbar-item {
             background: none;
-            margin: 0px 24px 0px 24px;
+            margin: 0px 12px 0px 12px;
             border-bottom: 3px solid transparent;
 
             transition: 0.3s ease-in-out;

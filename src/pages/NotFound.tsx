@@ -1,15 +1,17 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export const NotFound = () => {
     return (
-        <div className="not-found-container container">
-            <section className="not-found">
-                <h1 className="not-found-title">404.</h1>
+        <section id="not-found" className="not-found section is-medium">
+            <div className="not-found-container container">
+                <h1 className="not-found-title">404</h1>
                 <p className="not-found-description">
-                    You can always go back to the <Link to="/" className="link">homepage</Link> or <Link to="/how-did-you-find-this" target="_blank" className="link">here.</Link>
+                    The page you are looking for does not exist.<br/>
+                    You can always go back to the homepage by clicking <Link to="/how-did-you-find-this" target="_blank" className="link">me!</Link>
                 </p>
-            </section>
-        </div>
+            </div>
+        </section>    
     )
 }
 
