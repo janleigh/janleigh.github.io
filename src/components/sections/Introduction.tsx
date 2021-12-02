@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export const Introduction = () => {
