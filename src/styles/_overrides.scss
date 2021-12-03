@@ -1,6 +1,6 @@
 @import "./variables";
 
-// Base Overrides
+// Default Overrides
 * {
     box-sizing: border-box;
 }
@@ -17,18 +17,8 @@ a {
 
     &:hover,
     &:focus {
-        // Desaturate color
         color: $blue-desaturated;
     }
-}
-
-input[type=range]::-moz-focus-outer {
-    border: 0;
-}
-
-// Bulma Tooltip Overrides
-span[data-tooltip] {
-    border: none;
 }
 
 // Bulma Overrides
@@ -78,11 +68,11 @@ span[data-tooltip] {
 
     animation: scale-in .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
-    .media-content {
+    .repo-title {
         font-weight: bold;
     }
 
-    .c-content {
+    .repo-description {
         font-size: 14px;
     }
 }
@@ -102,7 +92,7 @@ span[data-tooltip] {
     .navbar-end {
         .navbar-item {
             background: none;
-            margin: 0px 12px 0px 12px;
+            margin: 0px 12px;
             border-bottom: 3px solid transparent;
 
             transition: 0.3s ease-in-out;
@@ -110,7 +100,15 @@ span[data-tooltip] {
             &:hover,
             &:focus {
                 color: $foreground;
-                border-color: $blue;
+                border-color: $green;
+            }
+        }
+
+        .is-icon {
+            margin: 0px 4px !important;
+
+            .is-hidden-desktop {
+                margin: 0px 8px !important;
             }
         }
     }

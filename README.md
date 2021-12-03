@@ -1,21 +1,16 @@
 ## ❖ [home.kizu.cf](https://home.kizu.cf)
 
-> my personal website. written using react.
-
-### — Prerequisites
-
-   * [Node.js](https://nodejs.org) version must be v16.x or above.
-
-### — Frameworks
-
-   * [Bulma](https://bulma.io)
-   * [Animate.css](https://animate.style/)
+> my personal website. powered using react and bulma.
 
 ### — CLI Commands
 
    * `yarn install` ~ install dependencies.
    * `yarn start` ~ start development server.
    * `yarn deploy` ~ deploy server.
+
+### — Special Thanks
+
+   * [LichKing112](https://github.com/LichKing112/) for some [mixins](src/styles/_mixins.scss).
 
 ### — License
 

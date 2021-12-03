@@ -1,14 +1,13 @@
 // Imports
 @import "./animations";
+@import "./mixins";
 @import "./overrides";
 @import "./variables";
+// Media Queries
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 @import url("https://cdn.jsdelivr.net/npm/css.gg/icons/all.css");
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
-
-.introduction-container, .about-container, .projects-container {
-    height: 100% !important;
-}
 
 #introduction {
     flex-direction: unset;
@@ -43,35 +42,7 @@
     }
 }
 
-#about {
-    .about-container {
-        .about-description {
-            color: $foreground;
-            font-size: 18px;
-            font-weight: normal;
-        }
-    
-        .columns {
-            padding: 12px 0px 12px 0px;
-
-            .column {
-                a {
-                    color: $foreground;
-                }
-            }
-        }
-    
-        h1 {
-            color: inherit !important;
-            font-size: 36px !important;
-            border-bottom: $green solid 4px;
-            display: inline-block;
-        }
-    }
-}
-
 #projects {
-    margin-top: 6em !important;
     background-color: $background-alt;
 
     .projects-container {
@@ -87,6 +58,43 @@
 
             align-items: center;
             margin-bottom: 1em;
+        }
+    }
+}
+
+#about {
+    .about-container {
+        .about-description {
+            color: $foreground;
+            font-size: 18px;
+            font-weight: normal;
+        }
+    
+        .columns {
+            padding: 12px 0px 12px 0px;
+
+            .column {
+                p {
+                    @include breakpoint(extra_small_devices) {
+                        margin-left: 0px !important;
+                    }
+
+                    @include breakpoint(small_devices) {
+                        margin-left: 2.5em !important;
+                    }
+                }
+
+                a {
+                    color: $foreground;
+                }
+            }
+        }
+
+        h1 {
+            color: inherit !important;
+            font-size: 36px !important;
+            border-bottom: $green solid 4px;
+            display: inline-block;
         }
     }
 }

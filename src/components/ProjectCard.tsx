@@ -53,7 +53,7 @@ export const ProjectCard = ({
         return (
             <div className="card" style={{ width: "420px !important", margin: "12px" }}>
                 <div className="card-content">
-                    <div className="c-content">
+                    <div className="repo-description">
                         <p>Loading...</p>
                     </div>
                 </div>
@@ -65,23 +65,23 @@ export const ProjectCard = ({
     return (
         <div className="card" style={{ width: "420px !important", margin: "12px" }}>
             <div className="card-content">
-                <div className="media-content">
+                <div className="repo-title">
                     <a href={data.html_url} target="_blank">
                         <RepoIcon size={16} /> {data.name}
                     </a>
                 </div>
-                <div className="c-content">
+                <div className="repo-description">
                     <p>{data.description}</p>
                     <br/>
                     <div style={{ display: "flex" }}>
                         <div style={{ marginRight: "12px" }}>
-                            <span className="has-tooltip-arrow" data-tooltip="Language"><i className={icon}></i>  {data.language}</span>
+                            <i className={icon}></i>  {data.language}
                         </div>
                         <div style={{ marginRight: "12px" }}>
-                            <span className="has-tooltip-arrow" data-tooltip="Stars"><StarFillIcon size={16} /> {data.stargazers_count}</span>
+                            <StarFillIcon size={16} /> {data.stargazers_count}
                         </div>
                         <div style={{ marginRight: "12px" }}>
-                            <span className="has-tooltip-arrow" data-tooltip="Is Maintained?"><QuestionIcon size={16} /> {data.archived ? "Archived" : "Maintained"}</span>
+                           <QuestionIcon size={16} /> {data.archived ? "Archived" : "Maintained"}
                         </div>
                     </div>
                 </div>

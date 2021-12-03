@@ -6,10 +6,8 @@ import App from "./pages/App";
 import NotFound from "./pages/NotFound";
 
 // CSS
-import "animate.css/animate.min.css";
 import "bulma/css/bulma.css";
-import "@creativebulma/bulma-tooltip/dist/bulma-tooltip.css";
-import "./styles/scss/index.scss";
+import "./styles/index.scss";
 
 ReactDOM.render(
     <Router>
