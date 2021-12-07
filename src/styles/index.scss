@@ -9,6 +9,10 @@
 @import url("https://cdn.jsdelivr.net/npm/css.gg/icons/all.css");
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
 
+.blue-text {
+    color: $blue;
+}
+
 #introduction {
     flex-direction: unset;
 
@@ -17,8 +21,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        padding: 2.5em 4.5em 6.5em 4.5em;
 
         .avatar {
             margin-top: -0.5em !important;
