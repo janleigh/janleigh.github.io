@@ -8,9 +8,11 @@ export const Projects = () => {
                 <div className="columns">
                     <div className="column is-6">
                         <ProjectCard username="TheRealKizu" repository="trace.moe.ts" />
+                        <ProjectCard username="TheRealKizu" repository="emi" />
                     </div>
                     <div className="column is-half">
                         <ProjectCard username="TheRealKizu" repository="therealkizu.github.io" />
+                        <ProjectCard username="TheRealKizu" repository="dotfiles" />
                     </div>
                 </div>
                 <h1>Commissions</h1>

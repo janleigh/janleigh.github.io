@@ -51,7 +51,7 @@ export const ProjectCard = ({
 
     if (loading) 
         return (
-            <div className="card" style={{ width: "420px !important", margin: "12px" }}>
+            <div className="card">
                 <div className="card-content">
                     <div className="repo-description">
                         <p>Loading...</p>
@@ -63,7 +63,7 @@ export const ProjectCard = ({
     const icon = getLanguageIcon(data.language);
 
     return (
-        <div className="card" style={{ width: "420px !important", margin: "12px" }}>
+        <div className="card">
             <div className="card-content">
                 <div className="repo-title">
                     <a href={data.html_url} target="_blank">

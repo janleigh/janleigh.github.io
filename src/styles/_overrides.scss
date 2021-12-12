@@ -21,6 +21,10 @@ a {
     }
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: $foreground !important;
+}
+
 // Bulma Overrides
 .button {
     border: unset;
@@ -37,8 +41,7 @@ a {
     &:hover,
     &:focus {
         color: $foreground;
-        box-shadow: inset 3.25em 0 0 0 #292d32,
-            inset -3.25em 0 0 0 #292d32;
+        box-shadow: inset 3.25em 0 0 0 #292d32, inset -3.25em 0 0 0 #292d32;
         border-color: #292d32 !important;
         transform: translateY(-0.5em);
     }
@@ -49,26 +52,26 @@ a {
     font-size: 20px;
 
     width: 100%;
-
-    h1, h2, h3, h4, h5, h6 {
-        color: $foreground;
-    }
 }
 
 .card {
     color: $foreground;
     background-color: $background;
+    border-radius: 10px;
 
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    margin: 12px;
+    width: 400px !important;
 
     animation: scale-in .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
-    .repo-title {
-        font-weight: bold;
-    }
-
-    .repo-description {
-        font-size: 14px;
+    .card-content {
+        .repo-title {
+            font-weight: bold;
+        }
+    
+        .repo-description {
+            font-size: 14px;
+        }
     }
 }
 
@@ -84,7 +87,7 @@ a {
         background-color: $background;
     }
 
-    .navbar-end {
+    .navbar-start, .navbar-end {
         .navbar-item {
             background: none;
             margin: 0px 12px;
@@ -110,7 +113,6 @@ a {
 }
 
 .footer {
-    color: $foreground;
     background-color: $background;
     padding: 4em !important;
 
