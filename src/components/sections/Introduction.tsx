@@ -5,7 +5,7 @@ export const Introduction = () => {
         <section id="introduction" className="introduction section is-medium">
             <div className="introduction-container container">
                 <div className="columns">
-                    <div className="column is-5">
+                    <div className="column is-6">
                         <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
                             <figure className="avatar">
                                 <img
@@ -16,7 +16,7 @@ export const Introduction = () => {
                             </figure>
                         </ScrollAnimation>
                     </div>
-                    <div className="column is-8">
+                    <div className="column is-6">
                         <ScrollAnimation animateIn="animate__slideInRight" animateOnce={true}>
                             <div className="content" style={{ textAlign: "center" }}>
                                 <h1 className="title">Hey! I'm <span style={{ color: "#758cb0" }}>Kizu!</span></h1>

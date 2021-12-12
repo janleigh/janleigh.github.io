@@ -57,10 +57,10 @@ h1, h2, h3, h4, h5, h6 {
 .card {
     color: $foreground;
     background-color: $background;
-    border-radius: 10px;
+    border-radius: 6px;
 
     margin: 12px;
-    width: 400px !important;
+    width: 340px !important;
 
     animation: scale-in .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 

@@ -24,18 +24,19 @@
 
     .introduction-container {
         display: flex;
+        position: relative;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
         .avatar {
-            margin-top: -0.5em !important;
+            margin: auto;
+            width: 16em !important;
 
             .image-title {
                 border-radius: 100%;
     
                 height: 16em !important;
-                width: 16em !important;
                 max-width: none !important;
     
                 animation: 3s ease-in-out infinite;
