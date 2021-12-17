@@ -7,11 +7,11 @@ export const Projects = () => {
                 <h1>Projects</h1>
                 <div className="columns">
                     <div className="column is-6">
-                        <ProjectCard username="TheRealKizu" repository="trace.moe.ts" />
-                        <ProjectCard username="TheRealKizu" repository="dotfiles" />
+                        <ProjectCard username="KizuWasTaken" repository="trace.moe.ts" />
+                        <ProjectCard username="KizuWasTaken" repository="dotfiles" />
                     </div>
                     <div className="column is-half">
-                        <ProjectCard username="TheRealKizu" repository="therealkizu.github.io" />
+                        <ProjectCard username="KizuWasTaken" repository="kizuwastaken.github.io" />
                     </div>
                 </div>
                 <h1>Commissions</h1>
@@ -24,7 +24,7 @@ export const Projects = () => {
                             }}
                         >
                             Hm. Well, this is awkward. There seems nothing in here.<br/>
-                            You can commission me <a href="http://ko-fi.com/therealkizu/commissions">here</a>.
+                            You can commission me <a href="http://ko-fi.com/janleigh/commissions">here</a>.
                         </p>
                     </div>
                 </div>

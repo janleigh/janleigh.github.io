@@ -19,7 +19,7 @@ export const AboutMe = () => {
                     </div>
                     <div className="column is-3" style={{ textAlign: "center" }}>
                         <a href="https://discord.com/users/380307921952833537" target="_blank" className="button">Discord</a>
-                        <a href="https://github.com/TheRealKizu" target="_blank" className="button">GitHub</a>
+                        <a href="https://github.com/KizuWasTaken" target="_blank" className="button">GitHub</a>
                         <a href="https://twitter.com/KizuWasTaken" target="_blank" className="button">Twitter</a>
                     </div>
                 </div>
