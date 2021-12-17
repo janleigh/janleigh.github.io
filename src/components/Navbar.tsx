@@ -28,8 +28,8 @@ export const Navbar = () => {
             >
                 <div className="navbar-end">
                     <Link to="introduction" smooth={true} className="navbar-item">Home</Link>
-                    <Link to="projects" smooth={true} className="navbar-item">Projects</Link>
                     <Link to="about" smooth={true} className="navbar-item">About</Link>
+                    <Link to="projects" smooth={true} className="navbar-item">Projects</Link>
                 </div>
             </div>
         </nav>

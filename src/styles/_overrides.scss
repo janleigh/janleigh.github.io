@@ -31,19 +31,19 @@ h1, h2, h3, h4, h5, h6 {
 
     color: $foreground;
     background-color: transparent;
-    border: 3px solid #292d32 !important;
+    border: 3px solid #192022 !important;
 
     margin: 6px !important;
 
-    transform: translateY(-0em);
+    transform: translateY(-0rem);
     transition: 0.40s;
 
     &:hover,
     &:focus {
         color: $foreground;
-        box-shadow: inset 3.25em 0 0 0 #292d32, inset -3.25em 0 0 0 #292d32;
-        border-color: #292d32 !important;
-        transform: translateY(-0.5em);
+        box-shadow: inset 3.25rem 0 0 0 #192022, inset -3.25rem 0 0 0 #192022;
+        border-color: #192022 !important;
+        transform: translateY(-0.5rem);
     }
 }
 
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 6px;
 
     margin: 12px;
-    width: 340px !important;
+    width: 420px !important;
 
     animation: scale-in .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer {
     background-color: $background;
-    padding: 4em !important;
+    padding: 4rem !important;
 
     p {
         font-size: 16px;

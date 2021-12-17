@@ -28,6 +28,9 @@ const getRepository = (username: string, repository: string): any => {
 };
 
 const getLanguageIcon = (language: string): string => {
+    if (!(language))
+        language = "github";
+
     switch (language.toLowerCase()) {
         case "shell":
             language = "bash";
@@ -48,6 +51,12 @@ export const ProjectCard = ({
     repository: string;
 }) => {
     const [data, _hasError, loading] = getRepository(username, repository);
+
+    if (!(data.name)) data.name = "I'm a placeholder!"
+    if (!(data.description)) data.description = "You are seeing this cause you are rate limited."
+    if (!(data.html_url)) data.html_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    if (!(data.language)) data.language = "GitHub";
+    if (!(data.stargazers_count)) data.stargazers_count = 69;
 
     if (loading) 
         return (

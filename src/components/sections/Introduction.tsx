@@ -19,11 +19,10 @@ export const Introduction = () => {
                     <div className="column is-6">
                         <ScrollAnimation animateIn="animate__slideInRight" animateOnce={true}>
                             <div className="content" style={{ textAlign: "center" }}>
-                                <h1 className="title">Hey! I'm <span style={{ color: "#758cb0" }}>Kizu!</span></h1>
+                                <h1 className="title">Hey! I'm <span style={{ color: "#758cb0" }}>Kizu</span>!</h1>
                                 <p className="description">
                                     An Filipino full-stack developer and a Linux enthusiast.
                                 </p>
-                                <br/>
                             </div>
                         </ScrollAnimation>
                     </div>

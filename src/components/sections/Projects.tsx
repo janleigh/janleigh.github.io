@@ -7,11 +7,12 @@ export const Projects = () => {
                 <h1>Projects</h1>
                 <div className="columns">
                     <div className="column is-6">
-                        <ProjectCard username="KizuWasTaken" repository="trace.moe.ts" />
-                        <ProjectCard username="KizuWasTaken" repository="dotfiles" />
+                        <ProjectCard username="janleigh" repository="dotfiles" />
+                        <ProjectCard username="janleigh" repository="trace.moe.ts" />
                     </div>
                     <div className="column is-half">
-                        <ProjectCard username="KizuWasTaken" repository="kizuwastaken.github.io" />
+                        <ProjectCard username="janleigh" repository="janleigh.github.io" />
+                        <ProjectCard username="janleigh" repository="mpd-discord-rpc" />
                     </div>
                 </div>
                 <h1>Commissions</h1>

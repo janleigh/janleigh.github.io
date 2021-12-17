@@ -5,7 +5,16 @@ export const AboutMe = () => {
             <div className="about-container container">
                 <h1 className="title">About</h1>
                 <div className="columns">
-                    <div className="column is-9">
+                    <div className="column is-2">
+                        <a href="https://github.com/KizuWasTaken" target="_blank" className="button">GitHub</a>
+                        <a href="https://twitter.com/KizuWasTaken" target="_blank" className="button">Twitter</a>
+                        <a href="https://discord.com/users/380307921952833537" target="_blank" className="button">Discord</a>
+                        <a href="mailto:therealkizu.protonmail.com" className="button">
+                            <span className="is-hidden-touch">Email Me</span>
+                            <span className="is-hidden-desktop gg-mail"/><span className="is-hidden-desktop" style={{ marginLeft: "4px" }}>Email</span>
+                        </a>
+                    </div>
+                    <div className="column is-10">
                         <div className="content">
                             <p>
                                 Hello! I am a Filipino senior high school student an a self-taught full-stack developer.<br/>
@@ -16,11 +25,6 @@ export const AboutMe = () => {
                                 but I'm tinkering with other languages such as Rust and Lua.
                             </p>
                         </div>
-                    </div>
-                    <div className="column is-3" style={{ textAlign: "center" }}>
-                        <a href="https://discord.com/users/380307921952833537" target="_blank" className="button">Discord</a>
-                        <a href="https://github.com/KizuWasTaken" target="_blank" className="button">GitHub</a>
-                        <a href="https://twitter.com/KizuWasTaken" target="_blank" className="button">Twitter</a>
                     </div>
                 </div>
             </div>
