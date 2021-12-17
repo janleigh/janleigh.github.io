@@ -10,8 +10,8 @@ export const AboutMe = () => {
                         <a href="https://twitter.com/KizuWasTaken" target="_blank" className="button">Twitter</a>
                         <a href="https://discord.com/users/380307921952833537" target="_blank" className="button">Discord</a>
                         <a href="mailto:therealkizu.protonmail.com" className="button">
-                            <span className="is-hidden-touch">Email Me</span>
-                            <span className="is-hidden-desktop gg-mail"/><span className="is-hidden-desktop" style={{ marginLeft: "4px" }}>Email</span>
+                            <span>Email Me</span>
+                            {/* <span className="is-hidden-desktop">Email Me</span> */}
                         </a>
                     </div>
                     <div className="column is-10">

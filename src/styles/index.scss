@@ -6,7 +6,6 @@
 // Media Queries
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
-@import url("https://cdn.jsdelivr.net/npm/css.gg/icons/all.css");
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
 
 .blue-text {
@@ -99,10 +98,12 @@
         .columns {
             padding: 12px 0px 12px 0px;
 
+
             .column {
                 @include breakpoint(extra_small_devices) {
                     text-align: center;
                 }
+
                 .button {
                     font-weight: bold;
 
