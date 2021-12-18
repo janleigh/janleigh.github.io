@@ -2,7 +2,7 @@ import ProjectCard from "../ProjectCard";
 
 export const Projects = () => {
     return (
-        <section id="projects" className="projects section is-medium" style={{ padding: "8em 4.5em" }}>
+        <section id="projects" className="projects section is-medium">
             <div className="projects-container">
                 <h1>Projects</h1>
                 <div className="columns">

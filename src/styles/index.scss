@@ -66,27 +66,6 @@
     }
 }
 
-#projects {
-    background-color: $background-alt;
-    padding: 6rem 1.5rem !important;
-
-    .projects-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        h1 {
-            color: inherit !important;
-            font-size: 36px;
-            font-weight: bold;
-
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-    }
-}
-
 #about {
     .about-container {
         .about-description {
@@ -121,7 +100,6 @@
                     &:focus {
                         color: $foreground;
                         box-shadow: none !important;
-                        border-color: none !important;
                         transform: translateX(0.5rem);
                     }
                 }
@@ -156,6 +134,31 @@
             text-align: center;
             font-size: 1.3rem;
             color: $foreground;
+        }
+    }
+}
+
+#projects {
+    background-color: $background-alt;
+    padding: 6rem 1.5rem;
+
+    transform: skewY(-3deg);
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        transform: skewY(3deg);
+
+        h1 {
+            color: inherit !important;
+            font-size: 36px;
+            font-weight: bold;
+
+            align-items: center;
+            margin-bottom: 1rem;
         }
     }
 }

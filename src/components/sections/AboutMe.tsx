@@ -11,7 +11,6 @@ export const AboutMe = () => {
                         <a href="https://discord.com/users/380307921952833537" target="_blank" className="button">Discord</a>
                         <a href="mailto:therealkizu.protonmail.com" className="button">
                             <span>Email Me</span>
-                            {/* <span className="is-hidden-desktop">Email Me</span> */}
                         </a>
                     </div>
                     <div className="column is-10">

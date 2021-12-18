@@ -1,10 +1,6 @@
 @import "./variables";
 
 // Default Overrides
-* {
-    box-sizing: border-box;
-}
-
 html, body {
     background-color: $background;
     color: $foreground;
@@ -27,8 +23,6 @@ h1, h2, h3, h4, h5, h6 {
 
 // Bulma Overrides
 .button {
-    border: unset;
-
     color: $foreground;
     background-color: transparent;
     border: 3px solid #192022 !important;
