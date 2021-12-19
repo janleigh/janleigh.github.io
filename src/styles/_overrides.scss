@@ -19,14 +19,18 @@ a {
 
 ul, ol {
     list-style: square !important;
+
+    @include breakpoint(extra_small_devices) {
+        list-style: none !important;
+        margin: 0px !important;
+    }
 }
 
 // Bulma Overrides
 .button {
-    color: $background-alt;
-    background-color: $blue;
-    border-color: $blue;
-    border-radius: 0px;
+    color: $foreground;
+    background-color: transparent;
+    border: 2px solid #192022;
 
     margin: 6px !important;
 
@@ -34,19 +38,20 @@ ul, ol {
     transition: 0.40s;
 
     span {
-        margin-left: 0.5rem;
+        padding-left: 0.5rem;
     }
 
     &:hover,
     &:focus {
-        color: $background-alt;
-        transform: translateX(0.5rem);
+        border-color: $blue;
+        color: inherit;
+        transform: translateY(-0.5rem);
     }
 }
 
 .content {
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
 
     width: 100%;
 }
@@ -79,18 +84,22 @@ ul, ol {
 .navbar {
     background-color: $background;
 
-    .navbar-brand .navbar-burger, .navbar-item {
+    .navbar-brand, .navbar-menu, .navbar-burger,.navbar-item {
+        margin: 16px 8px;
+        background-color: $background;
         color: $foreground;
+
     }
 
-    .navbar-brand, .navbar-menu {
-        margin: 12px 16px;
+    .navbar-start {
+        flex-grow: 1;
+        justify-content: center;
     }
 
-    .navbar-start, .navbar-end {
+    .navbar-start, .navbar-center, .navbar-end {
         .navbar-item {
             background: none;
-            margin: 0px 18px;
+            margin: 0px 16px;
             border-bottom: 3px solid transparent;
 
             transition: 0.3s ease-in-out;

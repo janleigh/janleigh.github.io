@@ -77,9 +77,9 @@
                     text-align: center;
                 }
 
-                .button {
+                .btn-alt {
                     font-weight: bold;
-                    background-color: transparent !important;
+                    background-color: transparent;
                     color: $foreground;
 
                     @include breakpoint(extra_small_devices) {
@@ -95,6 +95,7 @@
                     &:hover,
                     &:focus {
                         color: $foreground;
+                        transform: translateX(0.5rem);
                     }
                 }
             }

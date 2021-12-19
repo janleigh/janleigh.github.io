@@ -6,14 +6,14 @@ export const AboutMe = () => {
                 <h1 className="title">About</h1>
                 <div className="columns">
                     <div className="column is-2">
-                        <a href="https://github.com/KizuWasTaken" target="_blank" className="button">GitHub</a>
-                        <a href="https://twitter.com/KizuWasTaken" target="_blank" className="button">Twitter</a>
-                        <a href="https://discord.com/users/380307921952833537" target="_blank" className="button">Discord</a>
-                        <a href="mailto:therealkizu.protonmail.com" className="button">
+                        <a href="https://github.com/KizuWasTaken" target="_blank" className="button btn-alt">GitHub</a>
+                        <a href="https://twitter.com/KizuWasTaken" target="_blank" className="button btn-alt">Twitter</a>
+                        <a href="https://discord.com/users/380307921952833537" target="_blank" className="button btn-alt">Discord</a>
+                        <a href="mailto:therealkizu.protonmail.com" className="button btn-alt">
                             Email Me
                         </a>
                     </div>
-                    <div className="column is-10">
+                    <div className="column is-8">
                         <div className="content">
                             <p>
                                 Hello! I am a Filipino senior high school student an a self-taught full-stack developer.<br/>
@@ -35,7 +35,6 @@ export const AboutMe = () => {
                                         <ul>
                                             <li>React.js</li>
                                             <li>Node.js</li>
-                                            <li>Express.js</li>
                                             <li>Bulma</li>
                                             <li>Sass</li>
                                         </ul>

@@ -25,7 +25,7 @@ export const Introduction = () => {
                                     An Filipino full-stack web developer.
                                 </p>
                                 <Link to="about" smooth={true} className="button">
-                                    View more
+                                    View More
                                     <span>→</span>
                                 </Link>
                             </div>
