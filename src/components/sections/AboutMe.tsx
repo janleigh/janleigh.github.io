@@ -10,7 +10,7 @@ export const AboutMe = () => {
                         <a href="https://twitter.com/KizuWasTaken" target="_blank" className="button">Twitter</a>
                         <a href="https://discord.com/users/380307921952833537" target="_blank" className="button">Discord</a>
                         <a href="mailto:therealkizu.protonmail.com" className="button">
-                            <span>Email Me</span>
+                            Email Me
                         </a>
                     </div>
                     <div className="column is-10">
@@ -20,8 +20,34 @@ export const AboutMe = () => {
                                 My real name is <span className="blue-text">Jan Leigh</span> but I prefer the name <span className="blue-text">Kizu</span> on the internet.
                                 <br/><br/>
                                 I have been programming for about <span className="blue-text">4 years</span> now.<br/>
-                                I am currently proficient at Node.js, React, and TypeScript<br/>
-                                but I'm tinkering with other languages such as Rust and Lua.
+                                Here is my current stack:
+                                <div className="columns" style={{ marginTop: "1%" }}>
+                                    <div className="column is-3">
+                                        <h6>Languages</h6>
+                                        <ul>
+                                            <li>TypeScript</li>
+                                            <li>JavaScript</li>
+                                            <li>Lua</li>
+                                        </ul>
+                                    </div>
+                                    <div className="column is-3">
+                                        <h6>Frameworks</h6>
+                                        <ul>
+                                            <li>React.js</li>
+                                            <li>Node.js</li>
+                                            <li>Express.js</li>
+                                            <li>Bulma</li>
+                                            <li>Sass</li>
+                                        </ul>
+                                    </div>
+                                    <div className="column is-3">
+                                        <h6>Databases</h6>
+                                        <ul>
+                                            <li>MongoDB</li>
+                                            <li>MySQL</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </p>
                         </div>
                     </div>

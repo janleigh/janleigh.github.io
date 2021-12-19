@@ -1,11 +1,12 @@
 import ScrollAnimation from "react-animate-on-scroll";
+import { Link } from "react-scroll";
 
 export const Introduction = () => {
     return (
         <section id="introduction" className="introduction section is-medium">
             <div className="introduction-container container">
                 <div className="columns">
-                    <div className="column is-6">
+                    {/* <div className="column is-6">
                         <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
                             <figure className="avatar">
                                 <img
@@ -15,14 +16,18 @@ export const Introduction = () => {
                                 />
                             </figure>
                         </ScrollAnimation>
-                    </div>
-                    <div className="column is-6">
-                        <ScrollAnimation animateIn="animate__slideInRight" animateOnce={true}>
+                    </div> */}
+                    <div className="column is-12">
+                        <ScrollAnimation animateIn="animate__slideInUp" animateOnce={true}>
                             <div className="content" style={{ textAlign: "center" }}>
-                                <h1 className="title">Hey! I'm <span style={{ color: "#758cb0" }}>Kizu</span>!</h1>
+                                <h1 className="title">Hello, I'm <span className="blue-text">Jan Leigh</span>.</h1>
                                 <p className="description">
-                                    An Filipino full-stack developer and a Linux enthusiast.
+                                    An Filipino full-stack web developer.
                                 </p>
+                                <Link to="about" smooth={true} className="button">
+                                    View more
+                                    <span>→</span>
+                                </Link>
                             </div>
                         </ScrollAnimation>
                     </div>

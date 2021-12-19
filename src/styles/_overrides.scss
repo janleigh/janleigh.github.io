@@ -1,7 +1,7 @@
 @import "./variables";
 
 // Default Overrides
-html, body {
+html, body, .app {
     background-color: $background;
     color: $foreground;
     font-family: "DM Sans", sans-serif;
@@ -17,27 +17,30 @@ a {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: $foreground !important;
+ul, ol {
+    list-style: square !important;
 }
 
 // Bulma Overrides
 .button {
-    color: $foreground;
-    background-color: transparent;
-    border: 3px solid #192022 !important;
+    color: $background-alt;
+    background-color: $blue;
+    border-color: $blue;
+    border-radius: 0px;
 
     margin: 6px !important;
 
-    transform: translateY(-0rem);
+    transform: translateX(0rem);
     transition: 0.40s;
+
+    span {
+        margin-left: 0.5rem;
+    }
 
     &:hover,
     &:focus {
-        color: $foreground;
-        box-shadow: inset 3.25rem 0 0 0 #192022, inset -3.25rem 0 0 0 #192022;
-        border-color: #192022 !important;
-        transform: translateY(-0.5rem);
+        color: $background-alt;
+        transform: translateX(0.5rem);
     }
 }
 
@@ -74,21 +77,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
-    margin: 8px 16px;
-    background-color: $background-alt;
+    background-color: $background;
 
     .navbar-brand .navbar-burger, .navbar-item {
         color: $foreground;
     }
 
     .navbar-brand, .navbar-menu {
-        background-color: $background;
+        margin: 12px 16px;
     }
 
     .navbar-start, .navbar-end {
         .navbar-item {
             background: none;
-            margin: 0px 12px;
+            margin: 0px 18px;
             border-bottom: 3px solid transparent;
 
             transition: 0.3s ease-in-out;
@@ -96,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
             &:hover,
             &:focus {
                 color: $foreground;
-                border-color: $green;
+                border-color: $blue-desaturated;
             }
         }
 

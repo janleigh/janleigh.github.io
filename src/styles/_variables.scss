@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
+
+.vm-i {
+    font-family: "Victor Mono", monospace;
+    font-style: italic;
+}
+
 $background: #0E1112;
 $background-alt: #101415;
+$background-alt-other: #131718;
 $foreground: #c5c8c9;
 
 $red: #f65b5b;

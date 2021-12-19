@@ -3,10 +3,6 @@
 @import "./mixins";
 @import "./overrides";
 @import "./variables";
-// Media Queries
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
-@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
 
 .blue-text {
     font-weight: bold;
@@ -25,7 +21,7 @@
 
 #introduction {
     flex-direction: unset;
-    padding: 8.2rem 1.5rem;
+    padding: 7.8rem 1.5rem;
 
     .introduction-container {
         display: flex;
@@ -55,12 +51,7 @@
             margin-bottom: 2rem;
 
             .title {
-                &::after {
-                    content: "|";
-                    font-size: 3rem;
-                    margin-top: 4px;
-                    animation: blink 2.5s infinite
-                }
+                color: $foreground;
             }
         }
     }
@@ -76,7 +67,10 @@
     
         .columns {
             padding: 12px 0px 12px 0px;
-
+            h6 {
+                color: $blue-desaturated;
+                text-align: center;
+            }
 
             .column {
                 @include breakpoint(extra_small_devices) {
@@ -85,6 +79,8 @@
 
                 .button {
                     font-weight: bold;
+                    background-color: transparent !important;
+                    color: $foreground;
 
                     @include breakpoint(extra_small_devices) {
                         border-radius: 4px;
@@ -99,8 +95,6 @@
                     &:hover,
                     &:focus {
                         color: $foreground;
-                        box-shadow: none !important;
-                        transform: translateX(0.5rem);
                     }
                 }
             }
@@ -109,31 +103,8 @@
         h1 {
             color: inherit !important;
             font-size: 36px !important;
-            border-bottom: $green solid 4px;
+            border-bottom: $blue-desaturated solid 4px;
             display: inline-block;
-        }
-    }
-}
-
-#not-found {
-    .not-found-container {
-        color: $foreground;
-        padding: 8rem;
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        .not-found-title {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        .not-found-description {
-            text-align: center;
-            font-size: 1.3rem;
-            color: $foreground;
         }
     }
 }
@@ -159,6 +130,29 @@
 
             align-items: center;
             margin-bottom: 1rem;
+        }
+    }
+}
+
+#not-found {
+    .not-found-container {
+        color: $foreground;
+        padding: 8rem;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .not-found-title {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .not-found-description {
+            text-align: center;
+            font-size: 1.3rem;
+            color: $foreground;
         }
     }
 }
