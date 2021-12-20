@@ -33,8 +33,6 @@ ul, ol {
     border: 2px solid #192022;
 
     margin: 6px !important;
-
-    transform: translateX(0rem);
     transition: 0.40s;
 
     span {
@@ -45,7 +43,6 @@ ul, ol {
     &:focus {
         border-color: $blue;
         color: inherit;
-        transform: translateY(-0.5rem);
     }
 }
 
@@ -85,7 +82,7 @@ ul, ol {
     background-color: $background;
 
     .navbar-brand, .navbar-menu, .navbar-burger,.navbar-item {
-        margin: 16px 8px;
+        margin: 12px 8px;
         background-color: $background;
         color: $foreground;
 
@@ -99,7 +96,7 @@ ul, ol {
     .navbar-start, .navbar-center, .navbar-end {
         .navbar-item {
             background: none;
-            margin: 0px 16px;
+            margin: 0px 12px;
             border-bottom: 3px solid transparent;
 
             transition: 0.3s ease-in-out;

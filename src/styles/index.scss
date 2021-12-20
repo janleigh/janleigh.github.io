@@ -24,31 +24,8 @@
     padding: 7.8rem 1.5rem;
 
     .introduction-container {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        .avatar {
-            margin: auto;
-            width: 16rem !important;
-
-            .image-title {
-                border-radius: 100%;
-    
-                height: 16rem !important;
-                max-width: none !important;
-    
-                animation: 3s ease-in-out infinite;
-                animation-name: floating;
-            }
-        }
-
         .content {
-            margin-left: auto;
-            margin-top: 2.5rem;
-            margin-bottom: 2rem;
+            margin: 2.5rem auto 2rem auto;
 
             .title {
                 color: $foreground;

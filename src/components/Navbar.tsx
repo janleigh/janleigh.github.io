@@ -5,7 +5,7 @@ export const Navbar = () => {
     const [isActive, setIsActive] = useState(false);
 
     return (
-        <nav className="navbar" role="navigation">
+        <nav className="navbar is-fixed-top" role="navigation">
             <div className="navbar-brand">
                 <a
                     onClick={() => {
