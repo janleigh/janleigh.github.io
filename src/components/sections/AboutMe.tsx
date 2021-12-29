@@ -9,7 +9,7 @@ export const AboutMe = () => {
                         <a href="https://github.com/KizuWasTaken" target="_blank" className="button btn-alt">GitHub</a>
                         <a href="https://twitter.com/KizuWasTaken" target="_blank" className="button btn-alt">Twitter</a>
                         <a href="https://discord.com/users/380307921952833537" target="_blank" className="button btn-alt">Discord</a>
-                        <a href="mailto:therealkizu.protonmail.com" className="button btn-alt">
+                        <a href="mailto:janleigh@pm.me" className="button btn-alt">
                             Email Me
                         </a>
                     </div>
