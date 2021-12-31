@@ -1,27 +1,10 @@
-// Imports
 @import "./animations";
 @import "./mixins";
 @import "./overrides";
 @import "./variables";
 
-.blue-text {
-    font-weight: bold;
-    color: $blue;
-}
-
-.hyperlink {
-    font-weight: bold;
-    transition: 0.40s linear;
-    transform: translateY(-0rem);
-
-    &:hover {
-        transform: translateY(-0.5rem);
-    }
-}
-
 #introduction {
     flex-direction: unset;
-    padding: 7.8rem 1.5rem;
 
     .introduction-container {
         .content {
@@ -40,6 +23,28 @@
             color: $foreground;
             font-size: 18px;
             font-weight: normal;
+        }
+
+        .tech-stack {
+            span,
+            svg, i {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            svg, i {
+                width: 36px;
+                height: 36px;
+                padding: 4px;
+
+                display: inline-block;
+                vertical-align: middle;
+            }
+            svg *,
+            i * {
+                width: 36px;
+                height: 36px;
+            }
         }
     
         .columns {

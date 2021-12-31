@@ -6,13 +6,14 @@ export const Projects = () => {
             <div className="projects-container">
                 <h1>Projects</h1>
                 <div className="columns">
-                    <div className="column is-6">
+                    <div className="column is-multiline is-6">
                         <ProjectCard username="janleigh" repository="dotfiles" />
                         <ProjectCard username="janleigh" repository="trace.moe.ts" />
+                        <ProjectCard username="janleigh" repository="portfolio" />
                     </div>
-                    <div className="column is-half">
-                        <ProjectCard username="janleigh" repository="janleigh.github.io" />
-                        <ProjectCard username="janleigh" repository="mpd-discord-rpc" />
+                    <div className="column is-multiline is-half">
+                        <ProjectCard username="janleigh" repository="neodots" />
+                        <ProjectCard username="janleigh" repository="discord-css" />
                     </div>
                 </div>
                 <h1>Commissions</h1>
@@ -25,7 +26,7 @@ export const Projects = () => {
                             }}
                         >
                             Hm. Well, this is awkward. There seems nothing in here.<br/>
-                            You can always commission me <a href="http://ko-fi.com/janleigh/commissions">here</a>.
+                            You can always commission me by clicking <a href="http://ko-fi.com/janleigh/commissions">here</a>.
                         </p>
                     </div>
                 </div>
