@@ -4,7 +4,8 @@
   "homepage": "https://home.kizu.cf",
   "scripts": {
     "start:dev": "react-scripts start",
-    "deploy:prod": "react-scripts build && gh-pages -d build"
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
