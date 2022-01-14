@@ -1,4 +1,4 @@
-## ❖ [home.kizu.cf](https://home.kizu.cf)
+## ❖ [portfolio](https://janleigh.tech)
 
 > my personal website. powered using react and bulma.
 
