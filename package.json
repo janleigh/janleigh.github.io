@@ -5,6 +5,7 @@
   "scripts": {
     "start:dev": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "yarn build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build"
   },
   "browserslist": {
