@@ -83,15 +83,15 @@ export const ProjectCard = ({
                     <p>{data.description}</p>
                     <br/>
                     <div style={{ display: "flex" }}>
-                        <div style={{ marginRight: "12px" }}>
+                        <div style={{ marginRight: "3rem" }}>
                             <i className={icon}></i>  {data.language}
                         </div>
-                        <div style={{ marginRight: "12px" }}>
-                            <StarFillIcon size={16} /> {data.stargazers_count}
+                        <div>
+                            <StarFillIcon size={16} /> {data.stargazers_count} Stars
                         </div>
-                        <div style={{ marginRight: "12px" }}>
+                        {/* <div style={{ marginRight: "12px" }}>
                            <QuestionIcon size={16} /> {data.archived ? "Archived" : "Maintained"}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

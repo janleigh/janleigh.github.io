@@ -1,19 +1,18 @@
 @import "./variables";
 
-// Default Overrides
-html, body, .app {
-    background-color: $background;
-    color: $foreground;
-    font-family: "DM Sans", sans-serif;
+.app {
+    font-family: "DM Sans", sans-serif !important;
+    background-color: var(--background-primary) !important;
+    color: var(--foreground-primary) !important;
 }
 
 a {
-    color: $blue;
+    color: var(--accent);
     transition: 0.3s ease-in-out;
 
     &:hover,
     &:focus {
-        color: $blue-desaturated;
+        color: var(--accent) !important;
     }
 }
 
@@ -26,11 +25,11 @@ ul, ol {
     }
 }
 
-// Bulma Overrides
+/* BULMA OVERRIDES */
 .button {
-    color: $foreground;
+    color: var(--foreground-primary);
     background-color: transparent;
-    border: 2px solid #192022;
+    border: 2px solid var(--background-secondary-alt);
 
     margin: 6px !important;
     transition: 0.40s;
@@ -41,7 +40,7 @@ ul, ol {
 
     &:hover,
     &:focus {
-        border-color: $blue;
+        border-color: var(--accent);
         color: inherit;
     }
 }
@@ -54,11 +53,11 @@ ul, ol {
 }
 
 .card {
-    color: $foreground;
-    background-color: $background;
+    color: var(--foreground-primary);
+    background-color: var(--background-primary);
     border-radius: 6px;
 
-    margin: 12px;
+    margin: 1rem 0.3rem;
     width: 400px;
 
     @include breakpoint(extra_small_devices) {
@@ -79,13 +78,12 @@ ul, ol {
 }
 
 .navbar {
-    background-color: $background;
+    background-color: var(--background-primary);
 
     .navbar-brand, .navbar-menu, .navbar-burger,.navbar-item {
         margin: 12px 8px;
-        background-color: $background;
-        color: $foreground;
-
+        background-color: var(--background-primary);
+        color: var(--foreground-primary);
     }
 
     .navbar-start {
@@ -103,8 +101,8 @@ ul, ol {
 
             &:hover,
             &:focus {
-                color: $foreground;
-                border-color: $blue-desaturated;
+                color: var(--foreground-primary);
+                border-color: var(--accent);
             }
         }
 
@@ -119,7 +117,7 @@ ul, ol {
 }
 
 .footer {
-    background-color: $background;
+    background-color: var(--background-primary);
     padding: 4rem !important;
 
     p {

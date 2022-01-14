@@ -2,27 +2,17 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
 
-$background: #0E1112;
-$background-alt: #101415;
-$background-alt-other: #131718;
-$foreground: #c5c8c9;
-
-$red: #f65b5b;
-$yellow: #e7ac7e;
-$green: #8dc776;
-$aqua: #89b8c2;
-$blue: #84a0c6;
-$blue-desaturated: #758cb0;
-$magenta: #bb8fe5;
-
-.vm-i {
-    font-family: "Victor Mono", monospace;
-    font-style: italic;
+:root {
+    --accent: #84a0c6;
+    --background-primary: #0E1112;
+    --background-secondary: #101415;
+    --background-secondary-alt: #131718;
+    --foreground-primary: #c5c8c9;
 }
 
 .blue-text {
     font-weight: bold;
-    color: $blue;
+    color: var(--accent);
 }
 
 .hyperlink {
@@ -36,9 +26,9 @@ $magenta: #bb8fe5;
 }
 
 .box {
-    color: $foreground;
+    color: var(--foreground-primary);
     background-color: transparent;
-    border: 3px solid #101415;
+    border: 3px solid var(--background-secondary);
 
     display: inline-block;
     width: 100%;

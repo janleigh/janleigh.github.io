@@ -1,5 +1,4 @@
 // Reference: https://github.com/LichKing112/portfolio/blob/126ad94fd13d2e532ac60d4582464191fcbbfb9b/src/styles/_mixins.scss#L3
-// Hehe boi: https://cdn.xndr.tech/u/SADHcc8.png
 @mixin breakpoint($point) {
     @if $point == extra_small_devices {
         @media only screen and (max-width: 600px) {

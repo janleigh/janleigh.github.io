@@ -8,10 +8,10 @@
 
     .introduction-container {
         .content {
-            margin: 2.5rem auto 2rem auto;
+            margin: 3rem auto 2rem auto;
 
             .title {
-                color: $foreground;
+                color: var(--foreground-primary);
             }
         }
     }
@@ -20,7 +20,7 @@
 #about {
     .about-container {
         .about-description {
-            color: $foreground;
+            color: var(--foreground-primary);
             font-size: 18px;
             font-weight: normal;
         }
@@ -50,7 +50,7 @@
         .columns {
             padding: 12px 0px 12px 0px;
             h6 {
-                color: $blue-desaturated;
+                color: var(--accent);
                 text-align: center;
             }
 
@@ -62,11 +62,11 @@
                 .btn-alt {
                     font-weight: bold;
                     background-color: transparent;
-                    color: $foreground;
+                    color: var(--foreground-primary);
 
                     @include breakpoint(extra_small_devices) {
                         border-radius: 4px;
-                        background-color: #192022 !important;
+                        background-color: var(--background-primary);
                     }
 
                     @include breakpoint(small_devices) {
@@ -76,7 +76,7 @@
                     
                     &:hover,
                     &:focus {
-                        color: $foreground;
+                        color: var(--foreground-primary);
                         transform: translateX(0.5rem);
                     }
                 }
@@ -86,14 +86,14 @@
         h1 {
             color: inherit !important;
             font-size: 36px !important;
-            border-bottom: $blue-desaturated solid 4px;
+            border-bottom: var(--accent) solid 4px;
             display: inline-block;
         }
     }
 }
 
 #projects {
-    background-color: $background-alt;
+    background-color: var(--background-secondary);
     padding: 6rem 1.5rem;
 
     transform: skewY(-3deg);
@@ -113,29 +113,6 @@
 
             align-items: center;
             margin-bottom: 1rem;
-        }
-    }
-}
-
-#not-found {
-    .not-found-container {
-        color: $foreground;
-        padding: 8rem;
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        .not-found-title {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        .not-found-description {
-            text-align: center;
-            font-size: 1.3rem;
-            color: $foreground;
         }
     }
 }
