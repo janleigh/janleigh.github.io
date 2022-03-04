@@ -5,7 +5,6 @@
   "scripts": {
     "start:dev": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "yarn build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build"
   },
   "browserslist": {
@@ -40,5 +39,5 @@
     "sass": "^1.43.4",
     "typescript": "^4.1.2"
   },
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.2.0"
 }
