@@ -1,7 +1,7 @@
 {
   "name": "janleigh.github.io",
   "version": "2.0.0",
-  "homepage": "https://home.kizu.cf",
+  "homepage": "https://janleigh.tech",
   "scripts": {
     "start:dev": "react-scripts start",
     "build": "react-scripts build",
