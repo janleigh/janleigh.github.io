@@ -9,10 +9,10 @@ import "bulma/css/bulma.css";
 import "./styles/index.scss";
 
 ReactDOM.render(
-    <Router>
-        <Routes>
-            <Route path="/" element={<App/>}/>
-        </Routes>
-    </Router>,
-    document.getElementById("root")
+	<Router>
+		<Routes>
+			<Route path="/" element={<App />} />
+		</Routes>
+	</Router>,
+	document.getElementById("root")
 );

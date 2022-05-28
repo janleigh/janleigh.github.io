@@ -1,126 +1,132 @@
 @import "./variables";
 
 .app {
-    font-family: "DM Sans", sans-serif !important;
-    background-color: var(--background-primary) !important;
-    color: var(--foreground-primary) !important;
+	font-family: "DM Sans", sans-serif !important;
+	background-color: var(--background-primary) !important;
+	color: var(--foreground-primary) !important;
 }
 
 a {
-    color: var(--accent);
-    transition: 0.3s ease-in-out;
+	color: var(--accent);
+	transition: 0.3s ease-in-out;
 
-    &:hover,
-    &:focus {
-        color: var(--accent) !important;
-    }
+	&:hover,
+	&:focus {
+		color: var(--accent) !important;
+	}
 }
 
-ul, ol {
-    list-style: square !important;
+ul,
+ol {
+	list-style: square !important;
 
-    @include breakpoint(extra_small_devices) {
-        list-style: none !important;
-        margin: 0px !important;
-    }
+	@include breakpoint(extra_small_devices) {
+		list-style: none !important;
+		margin: 0px !important;
+	}
 }
 
 /* BULMA OVERRIDES */
 .button {
-    color: var(--foreground-primary);
-    background-color: transparent;
-    border: 2px solid var(--background-secondary-alt);
+	color: var(--foreground-primary);
+	background-color: transparent;
+	border: 2px solid var(--background-secondary-alt);
 
-    margin: 6px !important;
-    transition: 0.40s;
+	margin: 6px !important;
+	transition: 0.4s;
 
-    span {
-        padding-left: 0.5rem;
-    }
+	span {
+		padding-left: 0.5rem;
+	}
 
-    &:hover,
-    &:focus {
-        border-color: var(--accent);
-        color: inherit;
-    }
+	&:hover,
+	&:focus {
+		border-color: var(--accent);
+		color: inherit;
+	}
 }
 
 .content {
-    text-align: left;
-    font-size: 18px;
+	text-align: left;
+	font-size: 18px;
 
-    width: 100%;
+	width: 100%;
 }
 
 .card {
-    color: var(--foreground-primary);
-    background-color: var(--background-primary);
-    border-radius: 6px;
+	color: var(--foreground-primary);
+	background-color: var(--background-primary);
+	border-radius: 6px;
 
-    margin: 1rem 0.3rem;
-    width: 400px;
+	margin: 1rem 0.3rem;
+	width: 400px;
 
-    @include breakpoint(extra_small_devices) {
-        width: 340px !important;
-    }
+	@include breakpoint(extra_small_devices) {
+		width: 340px !important;
+	}
 
-    animation: scale-in .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: scale-in 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
-    .card-content {
-        .repo-title {
-            font-weight: bold;
-        }
-    
-        .repo-description {
-            font-size: 14px;
-        }
-    }
+	.card-content {
+		.repo-title {
+			font-weight: bold;
+		}
+
+		.repo-description {
+			font-size: 14px;
+		}
+	}
 }
 
 .navbar {
-    background-color: var(--background-primary);
+	background-color: var(--background-primary);
 
-    .navbar-brand, .navbar-menu, .navbar-burger,.navbar-item {
-        margin: 12px 8px;
-        background-color: var(--background-primary);
-        color: var(--foreground-primary);
-    }
+	.navbar-brand,
+	.navbar-menu,
+	.navbar-burger,
+	.navbar-item {
+		margin: 12px 8px;
+		background-color: var(--background-primary);
+		color: var(--foreground-primary);
+	}
 
-    .navbar-start {
-        flex-grow: 1;
-        justify-content: center;
-    }
+	.navbar-start {
+		flex-grow: 1;
+		justify-content: center;
+	}
 
-    .navbar-start, .navbar-center, .navbar-end {
-        .navbar-item {
-            background: none;
-            margin: 0px 12px;
-            border-bottom: 3px solid transparent;
+	.navbar-start,
+	.navbar-center,
+	.navbar-end {
+		.navbar-item {
+			background: none;
+			margin: 0px 12px;
+			border-bottom: 3px solid transparent;
 
-            transition: 0.3s ease-in-out;
+			transition: 0.3s ease-in-out;
 
-            &:hover,
-            &:focus {
-                color: var(--foreground-primary);
-                border-color: var(--accent);
-            }
-        }
+			&:hover,
+			&:focus {
+				color: var(--foreground-primary);
+				border-color: var(--accent);
+			}
+		}
 
-        .is-icon {
-            margin: 0px 4px !important;
+		.is-icon {
+			margin: 0px 4px !important;
 
-            .is-hidden-desktop {
-                margin: 0px 8px !important;
-            }
-        }
-    }
+			.is-hidden-desktop {
+				margin: 0px 8px !important;
+			}
+		}
+	}
 }
 
 .footer {
-    background-color: var(--background-primary);
-    padding: 4rem !important;
+	background-color: var(--background-primary);
+	padding: 4rem !important;
 
-    p {
-        font-size: 16px;
-    }
+	p {
+		font-size: 16px;
+	}
 }

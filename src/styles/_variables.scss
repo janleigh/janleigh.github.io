@@ -3,40 +3,40 @@
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
 
 :root {
-    --accent: #7ba5dd;
-    --background-primary: #0B0F10;
-    --background-secondary: #101415;
-    --background-secondary-alt: #131718;
-    --foreground-primary: #c5c8c9;
+	--accent: #7ba5dd;
+	--background-primary: #0b0f10;
+	--background-secondary: #101415;
+	--background-secondary-alt: #131718;
+	--foreground-primary: #c5c8c9;
 }
 
 .blue-text {
-    font-weight: bold;
-    color: var(--accent);
+	font-weight: bold;
+	color: var(--accent);
 }
 
 .hyperlink {
-    font-weight: bold;
-    transition: 0.40s linear;
-    transform: translateY(-0rem);
+	font-weight: bold;
+	transition: 0.4s linear;
+	transform: translateY(-0rem);
 
-    &:hover {
-        transform: translateY(-0.5rem);
-    }
+	&:hover {
+		transform: translateY(-0.5rem);
+	}
 }
 
 .box {
-    color: var(--foreground-primary);
-    background-color: transparent;
-    border: 3px solid var(--background-secondary);
+	color: var(--foreground-primary);
+	background-color: var(--background-primary);
+	border: 3px solid var(--background-secondary);
 
-    display: inline-block;
-    width: 100%;
-    height: 100%;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
 
-    span {
-        font-size: .875rem;
-        font-weight: bold;
-        padding: 8px;
-    }
+	span {
+		font-size: 0.875rem;
+		font-weight: bold;
+		padding: 8px;
+	}
 }
