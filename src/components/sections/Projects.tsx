@@ -14,7 +14,7 @@ export const Projects = () => {
 					</div>
 				</div>
 				<h1>Commissions</h1>
-				<div className="colums">
+				<div className="columns">
 					<div className="column is-full">
 						<p
 							style={{
