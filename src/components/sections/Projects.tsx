@@ -8,7 +8,6 @@ export const Projects = () => {
 				<div className="columns">
 					<div className="column is-multiline is-6">
 						<ProjectCard username="janleigh" repository="portfolio" />
-						<ProjectCard username="janleigh" repository="rieko" />
 					</div>
 					<div className="column is-multiline is-6">
 						<ProjectCard username="janleigh" repository="trace.moe.ts" />
