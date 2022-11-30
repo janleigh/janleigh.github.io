@@ -7,6 +7,7 @@ export const Projects = () => {
 				<h1>Projects</h1>
 				<div className="columns">
 					<div className="column is-multiline is-6">
+						<ProjectCard username="janleigh" repository="dotfiles" />
 						<ProjectCard username="janleigh" repository="portfolio" />
 					</div>
 					<div className="column is-multiline is-6">

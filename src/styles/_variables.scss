@@ -3,11 +3,11 @@
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
 
 :root {
-	--accent: #7ba5dd;
-	--background-primary: #0b0f10;
-	--background-secondary: #101415;
-	--background-secondary-alt: #131718;
-	--foreground-primary: #c5c8c9;
+	--accent: #a3b8ef;
+	--background-primary: #13171b;
+	--background-secondary: #171b20;
+	--background-secondary-alt: #21262e;
+	--foreground-primary: #b6beca;
 }
 
 .blue-text {
@@ -28,7 +28,7 @@
 .box {
 	color: var(--foreground-primary);
 	background-color: var(--background-primary);
-	border: 3px solid var(--background-secondary);
+	border: 3px solid var(--background-secondary-alt);
 
 	display: inline-block;
 	width: 100%;
