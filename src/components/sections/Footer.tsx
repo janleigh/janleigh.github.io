@@ -5,7 +5,7 @@ export const Footer = () => {
 				<p>
 					Powered using <a href="https://bulma.io">Bulma</a> and <a href="https://reactjs.org">React</a>.
 					<br />
-					Copyright © 2021-2022 Jan Leigh Muñoz. All Rights Reserved.
+					Copyright © 2021-2023 Jan Leigh Muñoz. All Rights Reserved.
 				</p>
 			</div>
 		</footer>

@@ -1,13 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
 
 :root {
-	--accent: #a3b8ef;
-	--background-primary: #13171b;
-	--background-secondary: #171b20;
-	--background-secondary-alt: #21262e;
-	--foreground-primary: #b6beca;
+	// --accent: #a3b8ef;
+	// --background-primary: #13171b;
+	// --background-secondary: #171b20;
+	// --background-secondary-alt: #21262e;
+	// --foreground-primary: #b6beca;
+
+	--accent: #22c376;
+	--background-primary: #101012;
+	--background-secondary: #141417;
+	--background-secondary-alt: #1c1c1f;
+	--foreground-primary: #e1e1e1;
 }
 
 .blue-text {

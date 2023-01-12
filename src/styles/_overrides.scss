@@ -1,7 +1,8 @@
 @import "./variables";
 
 .app {
-	font-family: "DM Sans", sans-serif !important;
+	font-family: "Poppins", sans-serif !important;
+	font-weight: 300;
 	background-color: var(--background-primary) !important;
 	color: var(--foreground-primary) !important;
 }

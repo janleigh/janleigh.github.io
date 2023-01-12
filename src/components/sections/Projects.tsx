@@ -8,10 +8,11 @@ export const Projects = () => {
 				<div className="columns">
 					<div className="column is-multiline is-6">
 						<ProjectCard username="janleigh" repository="dotfiles" />
-						<ProjectCard username="janleigh" repository="portfolio" />
+						<ProjectCard username="janleigh" repository="trace.moe.ts" />
 					</div>
 					<div className="column is-multiline is-6">
-						<ProjectCard username="janleigh" repository="trace.moe.ts" />
+						<ProjectCard username="janleigh" repository="portfolio" />
+						<ProjectCard username="janleigh" repository="typescript-template" />
 					</div>
 				</div>
 				<h1>Commissions</h1>
