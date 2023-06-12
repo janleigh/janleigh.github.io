@@ -1,0 +1,55 @@
+@import "./variables.scss";
+
+@keyframes float {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-6px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+.sidebar {
+	background-color: $lighter-background-color;
+	border-radius: 12px;
+	min-height: calc(100vh - 4.5rem);
+
+	animation: float 6s ease-in-out infinite;
+
+	.top-part {
+		background-color: lighten($background-color, 3%);
+		border-radius: 12px;
+
+		.pfp-icon {
+			.avatar {
+				box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.35);
+			}
+		}
+	}
+	.bottom-part {
+		.social-media {
+			span {
+				color: lighten($lighter-background-color, 5%);
+				font-size: 3rem;
+				margin: 0 0.5rem;
+			}
+		}
+	}
+}
+
+.main-column {
+	min-height: calc(60vh - 2.5rem) !important;
+	min-width: calc(90vw - 21rem) !important;
+
+	h1 {
+		font-size: 3rem;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 1.25rem;
+	}
+}

@@ -1,8 +1,15 @@
+import MainColumn from "../components/MainColumn";
+import Sidebar from "../components/Sidebar";
+
 export function App() {
 	return (
 		<>
-			<h1>Hello, world!</h1>
-			<p>Velit magna commodo laboris exercitation incididunt laboris mollit quis.</p>
+			<section className="section is-small">
+				<div className="columns">
+					<Sidebar />
+					<MainColumn />
+				</div>
+			</section>
 		</>
 	);
 }

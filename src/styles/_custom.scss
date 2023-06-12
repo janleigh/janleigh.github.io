@@ -1,0 +1,27 @@
+@import "./variables.scss";
+
+.is-italic {
+	font-family: "Satisfy" !important;
+}
+
+.blue-text {
+	font-weight: bold;
+	color: $accent !important;
+}
+
+.btn {
+	color: $foreground-color !important;
+	background-color: $background-color;
+	border: 2px solid $lighter-background-color;
+	border-radius: 12px;
+
+	padding: 0.5rem !important;
+	margin: 0.5rem !important;
+	transition: 0.4s;
+
+	&:hover,
+	&:focus {
+		border-color: lighten($lighter-background-color, 15%);
+		color: inherit;
+	}
+}

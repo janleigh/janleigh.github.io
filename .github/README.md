@@ -37,7 +37,6 @@ this readme sucks
    |  Donate With  |                      Address                       |
    | :-----------: | :------------------------------------------------: |
    |     Ko-fi     |     [Click Here](https://ko-fi.com/M4M272EAY)      |
-   |    PayPal     | [Click Here](https://paypal.me/JanLeighAugustineM) |
 
 
 <!--- LICENSE --->
