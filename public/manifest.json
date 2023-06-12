@@ -1,8 +1,0 @@
-{
-  "short_name": "home.kizu.cf",
-  "name": "my personal website. powered using react and bulma.",
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#f49898",
-  "background_color": "#f49898"
-}
