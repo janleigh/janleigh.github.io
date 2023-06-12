@@ -15,6 +15,10 @@
 	border: 2px solid $lighter-background-color;
 	border-radius: 12px;
 
+	p {
+		color: lighten($lighter-background-color, 25%) !important;
+	}
+
 	padding: 0.5rem !important;
 	margin: 0.5rem !important;
 	transition: 0.4s;
@@ -22,6 +26,9 @@
 	&:hover,
 	&:focus {
 		border-color: lighten($lighter-background-color, 15%);
-		color: inherit;
+		
+		p {
+			color: $accent !important;
+		}
 	}
 }

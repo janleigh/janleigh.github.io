@@ -6,6 +6,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
+		"deploy": "gh-pages -d dist",
 		"format": "prettier --write src",
 		"format:check": "prettier --check src",
 		"lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",

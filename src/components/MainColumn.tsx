@@ -24,9 +24,10 @@ function MainColumn() {
 						<p>
 							I am a Filipino senior high school student and a self-taught full-stack developer.
 							<br />
-							My real name is Jan Leigh, but I prefer the name Kizu on the internet.
+							My real name is <span className="blue-text">Jan Leigh</span>, but I prefer the name{" "}
+							<span className="blue-text">Kizu</span> on the internet.
 							<br />
-							<br />I have been programming for about <span className="blue-text">4 years now</span>, and
+							<br />I have been programming for about <span className="blue-text">6 years now</span>, and
 							I have a passion for creating web applications, and sometimes{" "}
 							<span style={{ textDecoration: "line-through" }}>shitty</span> software.
 							<br />

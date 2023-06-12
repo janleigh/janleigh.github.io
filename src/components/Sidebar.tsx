@@ -17,19 +17,25 @@ export function Sidebar() {
 						<a className="" href="https://github.com/janleigh" target="_blank">
 							<span className="fa-brands fa-github" />
 						</a>
-						<p className="ml-2 mr-5 my-3">GitHub</p>
+						<a className="" href="https://github.com/janleigh" target="_blank">
+							<p className="ml-2 mr-5 my-3">GitHub</p>{" "}
+						</a>
 					</div>
 					<div className="btn is-flex is-flex-direction-row is-justify-content-center">
 						<a href="https://discord.com/users/380307921952833537" target="_blank">
 							<span className="fa-brands fa-discord" />
 						</a>
-						<p className="ml-2 mr-5 my-3">Discord</p>
+						<a className="" href="https://github.com/janleigh" target="_blank">
+							<p className="ml-2 mr-5 my-3">Discord</p>
+						</a>
 					</div>
 					<div className="btn is-flex is-flex-direction-row is-justify-content-center">
 						<a href="mailto:janleigh@pm.me" target="_blank">
 							<span className="fa-regular fa-envelope" />
 						</a>
-						<p className="ml-2 mr-5 my-3">Email</p>
+						<a href="mailto:janleigh@pm.me" target="_blank">
+							<p className="ml-2 mr-5 my-3">Email</p>
+						</a>
 					</div>
 				</div>
 			</div>
