@@ -28,3 +28,6 @@ yarn-error.log*
 
 # cra fuck you
 src/react-app-env.d.ts
+
+# fuck you vite too
+src/vite-env.d.ts

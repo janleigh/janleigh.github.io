@@ -662,6 +662,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"animate.css@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "animate.css@npm:4.1.1"
+  checksum: c7eb91540423532c549725a6dedea993735a05eadaa49ed4d1965ce166a6db36459adcc9667c1dfe13657fab92a2875bbee34ad0d942444a731badab69f762c8
+  languageName: node
+  linkType: hard
+
 "ansi-regex@npm:^5.0.1":
   version: 5.0.1
   resolution: "ansi-regex@npm:5.0.1"
@@ -2311,6 +2318,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.59.0
     "@typescript-eslint/typescript-estree": ^5.59.9
     "@vitejs/plugin-react-swc": ^3.0.0
+    animate.css: ^4.1.1
     bulma: ^0.9.4
     eslint: ^8.42.0
     eslint-plugin-prettier: latest

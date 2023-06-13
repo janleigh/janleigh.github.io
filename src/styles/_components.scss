@@ -15,9 +15,8 @@
 .sidebar {
 	background-color: $lighter-background-color;
 	border-radius: 12px;
-	min-height: calc(100vh - 4.5rem);
 
-	animation: float 6s ease-in-out infinite;
+	animation: float 4s ease-in-out infinite;
 
 	.top-part {
 		background-color: lighten($background-color, 3%);
@@ -27,6 +26,11 @@
 			.avatar {
 				box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.35);
 			}
+		}
+		.pfp-info {
+			display: grid;
+			justify-items: center;
+			align-items: center;
 		}
 	}
 	.bottom-part {

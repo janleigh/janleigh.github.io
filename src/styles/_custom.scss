@@ -4,7 +4,7 @@
 	font-family: "Satisfy" !important;
 }
 
-.blue-text {
+.is-accent {
 	font-weight: bold;
 	color: $accent !important;
 }
@@ -31,4 +31,21 @@
 			color: $accent !important;
 		}
 	}
+}
+
+.rickroll {
+	
+	font-size: 15px !important;
+	text-align: justify !important;
+	font-weight: bold !important;
+	font-family: sans-serif !important;
+	min-height: 100vh !important;
+	max-width:800px !important;
+	margin:0 auto !important;
+	color: transparent !important;
+	background: url(https://media.giphy.com/media/Ju7l5y9osyymQ/giphy.gif) center/cover !important;
+	-webkit-background-clip: text !important;
+	background-clip: text !important;
+	word-spacing: 0px !important;
+	letter-spacing: -1px !important;
 }
