@@ -1811,6 +1811,7 @@ __metadata:
     react-dom: ^18.2.0
     react-router-dom: ^6.12.1
     sass: ^1.63.3
+    tuicss: ^2.1.2
     typescript: ^5.0.2
     vite: ^4.3.9
   languageName: unknown
@@ -2767,6 +2768,13 @@ __metadata:
   peerDependencies:
     typescript: ">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
   checksum: 1843f4c1b2e0f975e08c4c21caa4af4f7f65a12ac1b81b3b8489366826259323feb3fc7a243123453d2d1a02314205a7634e048d4a8009921da19f99755cdc48
+  languageName: node
+  linkType: hard
+
+"tuicss@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "tuicss@npm:2.1.2"
+  checksum: 7a9f722496dbd1f4422063b3e252c0eaf9ea473c124d8289fc77fe145e32d20a351e6ac4456d40d4a6c75363809ac169d32da1cf4e9f4cc9be9fa18e4bf7ab33
   languageName: node
   linkType: hard
 

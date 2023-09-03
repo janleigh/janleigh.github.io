@@ -1,7 +1,13 @@
-$background-color: #0c0f13;
-$lighter-background-color: #1a2029;
+$background-color: #121212;
+$foreground-color: #FFFFFF;
+$darker-foreground-color: #b3b3b3;
 
-$foreground-color: #fdfdff;
-$darker-foreground-color: #d7d7d8;
+$accent: #1db954;
+$accent-active: #1ed760;
+$accent-inactive: $background-color;
+$border-active: $accent-active;
+$border-inactive: #535353;
+$error: #e22134;
 
-$accent: #22c376;
+$font-main: "DM Mono";
+$font-alt: "Anonymous Pro", monospace;
