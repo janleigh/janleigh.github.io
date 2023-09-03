@@ -6,6 +6,7 @@ function Footer() {
 					<span>
 						Powered using <a href="https://reactjs.org">React</a>, <a href="https://vitejs.dev/">Vite</a>,
 						and <a href="https://bulma.io">Bulma</a>. Copyright © 2023 Jan Leigh Muñoz. All Rights Reserved.
+						<span className="blink">_</span>
 					</span>
 				</div>
 			</div>

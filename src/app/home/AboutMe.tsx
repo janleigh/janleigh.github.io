@@ -3,7 +3,7 @@ function AboutMe() {
 		<div>
 			<div className="column tui-window" id="about">
 				<fieldset className="tui-fieldset tui-border-solid">
-					<legend className="center">About Me</legend>
+					<legend className="center">[About Me]</legend>
 					<div className="is-flex">
 						<div className="columns is mobile" style={{ margin: "0.5rem" }}>
 							<div className="column is-one-quarter">
@@ -27,7 +27,9 @@ function AboutMe() {
 									, and <span className="is-accent">C</span>. I am also familiar with a variety of web
 									development frameworks and tools such as <span className="is-accent">React</span>,{" "}
 									<span className="is-accent">Next.js</span>, and{" "}
-									<span className="is-accent">Vite</span>.
+									<span className="is-accent">Vite</span> and database management systems such as{" "}
+									<span className="is-accent">MongoDB</span> and{" "}
+									<span className="is-accent">Prisma</span>.
 								</p>
 							</div>
 						</div>

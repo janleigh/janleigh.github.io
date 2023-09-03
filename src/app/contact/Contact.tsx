@@ -5,8 +5,8 @@ function Contact() {
 				<div className="columns">
 					<div className="column is-three-fifths is-centered tui-window">
 						<fieldset className="tui-fieldset tui-border-solid">
-							<legend className="center">Contact</legend>
-							<div className="is-flex is-align-content-center" style={{ margin: "1rem 3rem" }}>
+							<legend className="center">[Contact]</legend>
+							<div className="is-flex is-align-content-center" style={{ margin: "1rem 1.5rem" }}>
 								<p>
 									<span className="is-accent main-font">E</span>mail:{" "}
 									<a href="mailto:janleigh@pm.me">mailto:janleigh@pm.me</a>
@@ -21,7 +21,7 @@ function Contact() {
 									<a href="https://github.com/janleigh">https://github.com/janleigh</a>
 								</p>
 							</div>
-							<div className="is-flex is-justify-content-center" style={{ padding: "2rem 3rem 2.5rem" }}>
+							<div className="is-flex is-justify-content-center" style={{ padding: "2rem .5rem 2.5rem" }}>
 								<a href="/" className="tui-button active-button">
 									Return to Home Page
 								</a>

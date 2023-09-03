@@ -22,12 +22,12 @@
 }
 
 .active-button {
-	background-color: $foreground-color !important;
-	color: $background-color !important;
+	background-color: lighten($color: $border-inactive, $amount: 20%) !important;
+	// color: $background-color !important;
 }
 
 .disabled-button {
-	background-color: $border-inactive !important;
+	background-color: darken($color: $border-inactive, $amount: 10%) !important;
 }
 
 .terminal {
@@ -45,6 +45,10 @@
 			margin-left: 0.5rem;
 		}
 	}
+}
+
+.blink {
+	animation: blink 1s infinite;
 }
 
 #about {

@@ -50,10 +50,6 @@ a {
 }
 
 .tui-fieldset {
-	legend {
-		padding: 0px 6px;
-	}
-
 	&:hover,
 	&:active,
 	&:focus {
@@ -76,7 +72,7 @@ a {
 	font-family: $font-main !important;
 	box-shadow: 10px 10px darken($color: #1a1a1a, $amount: 5%) !important;
 	padding: 0rem 1rem;
-	margin: 0rem 3rem;
+	margin: 0rem 2.5rem;
 
 	&:active {
 		background-color: inherit !important;
