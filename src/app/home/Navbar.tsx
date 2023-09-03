@@ -8,7 +8,7 @@ function Navbar() {
 						<a className="navbar-item" href="/">
 							<span className="is-accent">h</span>ome.
 						</a>
-						<a className="navbar-item" href="#/projects">
+						<a className="navbar-item" href="https://github.com/janleigh?tab=repositories&type=source">
 							<span className="is-accent">p</span>rojects.
 						</a>
 						<a className="navbar-item" href="#/contact">

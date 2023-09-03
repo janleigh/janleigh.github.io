@@ -1,8 +1,8 @@
 {
 	"name": "janleigh.github.io",
 	"private": true,
-	"version": "3.0.0",
-	"description": "My personal website.",
+	"version": "3.0.1",
+	"description": "My personal website. Powered using React, Vite and Bulma.",
 	"author": {
 		"name": "Jan Leigh",
 		"email": "janleigh@pm.me"

@@ -22,7 +22,8 @@
 }
 
 .active-button {
-	background-color: $accent-active !important;
+	background-color: $foreground-color !important;
+	color: $background-color !important;
 }
 
 .disabled-button {

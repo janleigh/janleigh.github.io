@@ -32,6 +32,16 @@ span {
 	font-family: $font-alt;
 }
 
+a {
+	&:hover {
+		color: lighten($color: $accent, $amount: 20) !important;
+	}
+
+	&:active, &:focus {
+		color: $accent !important;
+	}
+}
+
 .tui-window {
 	background-color: $background-color;
 	box-shadow: none;
@@ -55,11 +65,23 @@ span {
 	border-color: $border-inactive;
 }
 
+.tui-shadow {
+	box-shadow: 10px 10px darken($color: #1a1a1a, $amount: 5%) !important;
+}
+
 .tui-button {
 	font-family: $font-main !important;
-	box-shadow: 10px 10px darken($color: #1a1a1a, $amount: 5%);
+	box-shadow: 10px 10px darken($color: #1a1a1a, $amount: 5%) !important;
 	padding: 0rem 1rem;
 	margin: 0rem 3rem;
+
+	&:active {
+		background-color: inherit !important;
+	}
+
+	&:focus {
+		color: inherit !important;
+	}
 }
 
 @import "../../node_modules/bulma/sass/base/_all.sass";

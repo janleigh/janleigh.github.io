@@ -7,12 +7,12 @@ function AboutMe() {
 					<div className="is-flex">
 						<div className="columns is mobile" style={{ margin: "0.5rem" }}>
 							<div className="column is-one-quarter">
-								<img src="/term.png" alt="Profile" />
+								<img className="tui-shadow" src="https://github.com/janleigh.png" alt="Profile" />
 							</div>
 							<div className="column is-flex is-align-items-center">
 								<p>
 									<h1 className="is-accent">Hello, dear reader!</h1>
-									I am a Filipino senior high school student and a self-taught full-stack developer.
+									I am a Filipino first-year college student and a self-taught full-stack developer.
 									<br />
 									My real name is <span className="is-accent">Jan Leigh</span>, but I prefer the name{" "}
 									<span className="is-accent">Kizu</span> on the internet.
