@@ -1,0 +1,14 @@
+{
+	"extends": [
+		"config:base"
+	],
+	"ignorePresets": [ ":dependencyDashboard" ],
+	"labels": [ "Type: Dependencies" ],
+	"schedule": [
+		"after 12pm every weekday",
+		"after 12pm every weekend"
+	],
+	"github-actions": {
+		"enabled": false
+	}
+}
