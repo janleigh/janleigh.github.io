@@ -1,7 +1,12 @@
 {
-	"name": "portfolio-v2",
+	"name": "janleigh.github.io",
 	"private": true,
-	"version": "0.0.0",
+	"version": "3.0.0",
+	"description": "My personal website.",
+	"author": {
+		"name": "Jan Leigh",
+		"email": "janleigh@pm.me"
+	},
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
@@ -38,5 +43,5 @@
 		"typescript": "^5.0.2",
 		"vite": "^4.3.9"
 	},
-	"packageManager": "yarn@3.6.0"
+	"packageManager": "yarn@3.6.3"
 }

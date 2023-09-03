@@ -1788,6 +1788,34 @@ __metadata:
   languageName: node
   linkType: hard
 
+"janleigh.github.io@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "janleigh.github.io@workspace:."
+  dependencies:
+    "@fortawesome/fontawesome-free": ^6.4.0
+    "@types/react": ^18.0.37
+    "@types/react-dom": ^18.0.11
+    "@typescript-eslint/eslint-plugin": ^5.59.0
+    "@typescript-eslint/parser": ^5.59.0
+    "@typescript-eslint/typescript-estree": ^5.59.9
+    "@vitejs/plugin-react-swc": ^3.0.0
+    animate.css: ^4.1.1
+    bulma: ^0.9.4
+    eslint: ^8.42.0
+    eslint-plugin-prettier: latest
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-react-refresh: ^0.3.4
+    gh-pages: ^5.0.0
+    prettier: ^2.8.8
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.12.1
+    sass: ^1.63.3
+    typescript: ^5.0.2
+    vite: ^4.3.9
+  languageName: unknown
+  linkType: soft
+
 "js-tokens@npm:^3.0.0 || ^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -2306,34 +2334,6 @@ __metadata:
   checksum: 9863e3f35132bf99ae1636d31ff1e1e3501251d480336edb1c211133c8d58906bed80f154a1d723652df1fda91e01c7442c2eeaf9dc83157c7ae89087e43c8d6
   languageName: node
   linkType: hard
-
-"portfolio-v2@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "portfolio-v2@workspace:."
-  dependencies:
-    "@fortawesome/fontawesome-free": ^6.4.0
-    "@types/react": ^18.0.37
-    "@types/react-dom": ^18.0.11
-    "@typescript-eslint/eslint-plugin": ^5.59.0
-    "@typescript-eslint/parser": ^5.59.0
-    "@typescript-eslint/typescript-estree": ^5.59.9
-    "@vitejs/plugin-react-swc": ^3.0.0
-    animate.css: ^4.1.1
-    bulma: ^0.9.4
-    eslint: ^8.42.0
-    eslint-plugin-prettier: latest
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-react-refresh: ^0.3.4
-    gh-pages: ^5.0.0
-    prettier: ^2.8.8
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-router-dom: ^6.12.1
-    sass: ^1.63.3
-    typescript: ^5.0.2
-    vite: ^4.3.9
-  languageName: unknown
-  linkType: soft
 
 "postcss@npm:^8.4.23":
   version: 8.4.24
