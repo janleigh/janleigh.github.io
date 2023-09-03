@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap");
 @import "./variables.scss";
 
 :root {
@@ -37,7 +37,8 @@ a {
 		color: lighten($color: $accent, $amount: 20) !important;
 	}
 
-	&:active, &:focus {
+	&:active,
+	&:focus {
 		color: $accent !important;
 	}
 }
@@ -53,7 +54,9 @@ a {
 		padding: 0px 6px;
 	}
 
-	&:hover, &:active, &:focus {
+	&:hover,
+	&:active,
+	&:focus {
 		border-color: $border-active;
 
 		legend {
@@ -105,7 +108,9 @@ a {
 .navbar-item {
 	padding: 0rem 1rem 0.5rem;
 
-	&:hover, &:active, &:focus {
+	&:hover,
+	&:active,
+	&:focus {
 		color: $foreground-color !important;
 		background-color: transparent !important;
 	}

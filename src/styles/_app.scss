@@ -30,7 +30,7 @@
 	background-color: $border-inactive !important;
 }
 
-.terminal { 
+.terminal {
 	.prompt {
 		&::before {
 			content: "> ";
@@ -48,7 +48,9 @@
 }
 
 #about {
-	&:active, &:hover, &:focus {
+	&:active,
+	&:hover,
+	&:focus {
 		div {
 			color: $foreground-color !important;
 		}
