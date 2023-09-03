@@ -1788,6 +1788,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"janleigh.github.io@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "janleigh.github.io@workspace:."
+  dependencies:
+    "@fortawesome/fontawesome-free": ^6.4.0
+    "@types/react": ^18.0.37
+    "@types/react-dom": ^18.0.11
+    "@typescript-eslint/eslint-plugin": ^5.59.0
+    "@typescript-eslint/parser": ^5.59.0
+    "@typescript-eslint/typescript-estree": ^5.59.9
+    "@vitejs/plugin-react-swc": ^3.0.0
+    animate.css: ^4.1.1
+    bulma: ^0.9.4
+    eslint: ^8.42.0
+    eslint-plugin-prettier: latest
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-react-refresh: ^0.3.4
+    gh-pages: ^5.0.0
+    prettier: ^2.8.8
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.12.1
+    sass: ^1.63.3
+    tuicss: ^2.1.2
+    typescript: ^5.0.2
+    vite: ^4.3.9
+  languageName: unknown
+  linkType: soft
+
 "js-tokens@npm:^3.0.0 || ^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -2307,34 +2336,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"portfolio-v2@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "portfolio-v2@workspace:."
-  dependencies:
-    "@fortawesome/fontawesome-free": ^6.4.0
-    "@types/react": ^18.0.37
-    "@types/react-dom": ^18.0.11
-    "@typescript-eslint/eslint-plugin": ^5.59.0
-    "@typescript-eslint/parser": ^5.59.0
-    "@typescript-eslint/typescript-estree": ^5.59.9
-    "@vitejs/plugin-react-swc": ^3.0.0
-    animate.css: ^4.1.1
-    bulma: ^0.9.4
-    eslint: ^8.42.0
-    eslint-plugin-prettier: latest
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-react-refresh: ^0.3.4
-    gh-pages: ^5.0.0
-    prettier: ^2.8.8
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-router-dom: ^6.12.1
-    sass: ^1.63.3
-    typescript: ^5.0.2
-    vite: ^4.3.9
-  languageName: unknown
-  linkType: soft
-
 "postcss@npm:^8.4.23":
   version: 8.4.24
   resolution: "postcss@npm:8.4.24"
@@ -2767,6 +2768,13 @@ __metadata:
   peerDependencies:
     typescript: ">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
   checksum: 1843f4c1b2e0f975e08c4c21caa4af4f7f65a12ac1b81b3b8489366826259323feb3fc7a243123453d2d1a02314205a7634e048d4a8009921da19f99755cdc48
+  languageName: node
+  linkType: hard
+
+"tuicss@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "tuicss@npm:2.1.2"
+  checksum: 7a9f722496dbd1f4422063b3e252c0eaf9ea473c124d8289fc77fe145e32d20a351e6ac4456d40d4a6c75363809ac169d32da1cf4e9f4cc9be9fa18e4bf7ab33
   languageName: node
   linkType: hard
 

@@ -1,7 +1,12 @@
 {
-	"name": "portfolio-v2",
+	"name": "janleigh.github.io",
 	"private": true,
-	"version": "0.0.0",
+	"version": "3.0.0",
+	"description": "My personal website.",
+	"author": {
+		"name": "Jan Leigh",
+		"email": "janleigh@pm.me"
+	},
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
@@ -20,7 +25,8 @@
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-router-dom": "^6.12.1",
-		"sass": "^1.63.3"
+		"sass": "^1.63.3",
+		"tuicss": "^2.1.2"
 	},
 	"devDependencies": {
 		"@types/react": "^18.0.37",
@@ -38,5 +44,5 @@
 		"typescript": "^5.0.2",
 		"vite": "^4.3.9"
 	},
-	"packageManager": "yarn@3.6.0"
+	"packageManager": "yarn@3.6.3"
 }
