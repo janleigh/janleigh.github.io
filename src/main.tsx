@@ -7,7 +7,6 @@ import NotFound from "./app/NotFound";
 
 import "animate.css";
 import "tuicss";
-import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 import "./styles/index.scss";
 
 ReactDOM.render(
