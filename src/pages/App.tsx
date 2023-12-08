@@ -2,12 +2,10 @@ import Footer from "../components/Footer";
 import MainContainer from "../components/MainContainer";
 import Navbar from "../components/Navbar";
 
-import NotFound from "./404";
-
 export function App() {
 	return (
-		<div id="app" className="flex h-screen w-screen justify-center bg-verdant-bg px-8 py-8">
-			{window.innerWidth > 768 ? (
+		<div id="app" className="flex h-screen w-screen justify-center bg-verdant-bg lg:px-8 lg:py-8">
+			{/* {window.innerWidth > 768 ? (
 				<>
 					<Navbar />
 					<MainContainer />
@@ -15,7 +13,10 @@ export function App() {
 				</>
 			) : (
 				<NotFound />
-			)}
+			)} */}
+			<Navbar />
+			<MainContainer />
+			<Footer />
 		</div>
 	);
 }
