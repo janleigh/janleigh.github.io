@@ -1,20 +1,14 @@
-import Footer from "../app/Footer";
-import Header from "../app/Header";
-import AboutMe from "../app/home/AboutMe";
-import Navbar from "../app/home/Navbar";
+import Footer from "../components/Footer";
+import MainContainer from "../components/MainContainer";
+import Navbar from "../components/Navbar";
 
 export function App() {
 	return (
-		<>
-			<section className="section is-small animate__animated animate__fadeIn">
-				<Header />
-				<div style={{ margin: "1rem 2rem" }}>
-					<Navbar />
-					<AboutMe />
-				</div>
-				<Footer />
-			</section>
-		</>
+		<div id="app" className="bg-verdant-bg flex h-screen w-screen justify-center px-8 py-8">
+			<Navbar />
+			<MainContainer />
+			<Footer />
+		</div>
 	);
 }
 
