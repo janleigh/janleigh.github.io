@@ -15,8 +15,10 @@ export function App() {
 				<NotFound />
 			)} */}
 			<Navbar />
-			<MainContainer />
-			<Footer />
+			<div className="flex flex-col justify-center">
+				<MainContainer />
+				<Footer />
+			</div>
 		</div>
 	);
 }

@@ -1,15 +1,15 @@
 export function MainContainer() {
 	return (
-		<div id="main" className="flex w-screen justify-center bg-verdant-bg">
+		<div id="main" className="flex justify-center bg-verdant-bg">
 			<div className="flex flex-col items-center justify-center lg:flex-row">
-				<div className="mx-12 mb-8 mt-16 lg:mb-0 lg:mt-0">
+				<div className="mx-12 mb-8 mt-16 sm:mt-96 md:mt-48 lg:mb-0 lg:mt-0">
 					<img
 						src="https://github.com/janleigh.png"
 						alt="PFP"
 						className="h-60 w-60 rounded-full bg-verdant-bg-light p-4"
 					/>
 				</div>
-				<div className="mx-8 mb-12 items-center justify-center lg:mb-0">
+				<div className="mx-12 items-center justify-center lg:mx-8 lg:mb-0">
 					<div className="text-3xl font-bold text-verdant-fg">
 						Heya! I'm <span className="text-verdant-blue">Jan Leigh</span>!
 					</div>
