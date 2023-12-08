@@ -2,11 +2,11 @@ export function Navbar() {
 	return (
 		<div id="navbar" className="fixed flex w-11/12 justify-center">
 			<div className="mx-auto flex justify-start">
-				<span className="text-verdant-fg py-4">
+				<span className="py-4 text-verdant-fg">
 					janleigh<span className="text-verdant-blue">.is-a.dev</span>
 				</span>
 			</div>
-			<div className="bg-verdant-bg-light mx-auto flex rounded-2xl px-2">
+			<div className="mx-auto flex rounded-2xl bg-verdant-bg-light px-2">
 				<div className="flex justify-end">
 					<div className="flex lowercase">
 						<a href="https://github.com/janleigh" target="_blank" className="p-4 text-stone-50">

@@ -1,19 +1,19 @@
 export function MainContainer() {
 	return (
-		<div id="main" className="bg-verdant-bg flex w-screen justify-center">
+		<div id="main" className="flex w-screen justify-center bg-verdant-bg">
 			<div className="flex items-center justify-center">
 				<div className="mx-12">
 					<img
 						src="https://github.com/janleigh.png"
 						alt="PFP"
-						className="bg-verdant-bg-light h-60 w-60 rounded-full p-4"
+						className="h-60 w-60 rounded-full bg-verdant-bg-light p-4"
 					/>
 				</div>
 				<div className="mx-8 items-center justify-center">
-					<div className="text-verdant-fg text-3xl font-bold">
+					<div className="text-3xl font-bold text-verdant-fg">
 						Heya! I'm <span className="text-verdant-blue">Jan Leigh</span>!
 					</div>
-					<div className="text-verdant-fg-dark text-base">
+					<div className="text-base text-verdant-fg-dark">
 						I am a Filipino first-year college student and a self-taught full-stack developer.
 						<br />
 						<br />
