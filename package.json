@@ -25,8 +25,8 @@
 		"react-router-dom": "^6.20.1"
 	},
 	"devDependencies": {
-		"@types/react": "^18.2.42",
-		"@types/react-dom": "^18.2.17",
+		"@types/react": "^18.2.47",
+		"@types/react-dom": "^18.2.18",
 		"@typescript-eslint/eslint-plugin": "^6.13.2",
 		"@typescript-eslint/parser": "^6.13.2",
 		"@typescript-eslint/typescript-estree": "^6.13.2",
@@ -36,14 +36,14 @@
 		"eslint-plugin-prettier": "^5.0.1",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-react-refresh": "^0.4.5",
-		"gh-pages": "^6.1.0",
-		"postcss": "^8.4.32",
-		"prettier": "^3.1.0",
-		"prettier-plugin-tailwindcss": "^0.5.9",
-		"sass": "^1.69.5",
+		"gh-pages": "^6.1.1",
+		"postcss": "^8.4.33",
+		"prettier": "^3.1.1",
+		"prettier-plugin-tailwindcss": "^0.5.11",
+		"sass": "^1.69.7",
 		"tailwindcss": "^3.3.6",
 		"typescript": "^5.3.3",
-		"vite": "^5.0.6"
+		"vite": "^5.0.11"
 	},
 	"packageManager": "yarn@4.0.2"
 }

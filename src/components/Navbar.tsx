@@ -1,12 +1,12 @@
 export function Navbar() {
 	return (
-		<div id="navbar" className="fixed flex w-full justify-center bg-verdant-bg-light lg:w-11/12 lg:bg-verdant-bg">
+		<div id="navbar" className="flex w-full justify-center bg-verdant-bg-light lg:fixed lg:top-8 lg:bg-verdant-bg">
 			<div className="mx-12 flex justify-start lg:mx-auto">
 				<span className="py-4 text-verdant-fg">
 					janleigh<span className="text-verdant-blue">.is-a.dev</span>
 				</span>
 			</div>
-			<div className="mr-6 mt-2 flex lg:mx-auto lg:my-auto">
+			<div className="mr-6 mt-3 flex lg:mx-auto lg:my-auto">
 				<div className="flex justify-end">
 					<div className="flex lowercase">
 						<a href="https://github.com/janleigh" target="_blank" className="p-4 text-verdant-fg">
