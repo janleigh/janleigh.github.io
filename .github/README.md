@@ -2,8 +2,6 @@
 this readme sucks
 --->
 
-<h2 align="center"> ━━━━━━  ❖  ━━━━━━ </h2>
-
 <!--- TITLE --->
 <h1 align="center"> portfolio </h1>
 
@@ -25,19 +23,6 @@ this readme sucks
    </a>
    <br>
 </div>
-
----
-
-## :money_with_wings: <samp>TIP JAR</samp>
-
-   If you enjoyed it and would like to show your appreciation, you may want to tip me here.
-
-   It is never required but always appreciated. Thanks from the bottom of my heart!
-
-   |  Donate With  |                      Address                       |
-   | :-----------: | :------------------------------------------------: |
-   |     Ko-fi     |     [Click Here](https://ko-fi.com/M4M272EAY)      |
-
 
 <!--- LICENSE --->
 ## :scroll: <samp>LICENSE</samp>
