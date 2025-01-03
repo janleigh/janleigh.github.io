@@ -14,7 +14,7 @@ export function MainContainer() {
 						Heya! I'm <span className="text-verdant-blue">Jan Leigh</span>!
 					</div>
 					<div className="text-base text-verdant-fg-dark">
-						I am a Filipino first-year college student and self-taught full-stack developer.
+						I am a Filipino college student and self-taught full-stack developer.
 						<br />
 						<br />
 						I've been programming since 2018, and I enjoy creating web applications,
@@ -23,9 +23,9 @@ export function MainContainer() {
 						<br />
 						<br />I am proficient in a variety of programming languages, such as{" "}
 						<span className="text-verdant-blue">TypeScript</span>,{" "}
-						<span className="text-verdant-purple">Rust</span>, and{" "}
-						<span className="text-verdant-red">C</span>.
-						<br />I am also familiar with a range of web development frameworks and tools such as{" "}
+						<span className="text-verdant-orange">Python</span>, and{" "}
+						<span className="text-verdant-">Java</span>.
+						<br />I am also familiar with a range of web development frameworks and tools, such as{" "}
 						<span className="text-verdant-orange">React</span>,
 						<br />
 						<span className="text-verdant-blue">Next.js</span>, and{" "}
