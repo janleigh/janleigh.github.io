@@ -1696,11 +1696,11 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-react-refresh@npm:^0.4.16":
-  version: 0.4.16
-  resolution: "eslint-plugin-react-refresh@npm:0.4.16"
+  version: 0.4.26
+  resolution: "eslint-plugin-react-refresh@npm:0.4.26"
   peerDependencies:
     eslint: ">=8.40"
-  checksum: 72f022097978a4efe161cd07fd30b65f441e102c3139dd58cb132ecbc756c7d8b2739b78408556bcfb2d38c0f703eeac7eaef756818d887230e2cb93925af5a5
+  checksum: 068da7edcd39d802dda4c03b7ea8923891145eb95f4dfd4cfce82a53a5eb55f5cbe66b33cf8e57b71f1525a684517bda4bfca1bc5c6b12c82ba03c9e8197764d
   languageName: node
   linkType: hard
 
